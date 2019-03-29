@@ -794,7 +794,7 @@ input:checked + .work::before {
   top: 62px;
   left: 194px;
   background-size: contain;
-  background-image: url("./images/monstersSquad.png");
+  background-image: url("./images/batman.png");
   cursor: pointer;
 }
 
@@ -807,7 +807,7 @@ input:checked + .work::before {
   top: 173px;
   left: 147px;
   background-size: contain;
-  background-image: url("./images/monstersSquad.png");
+  background-image: url("./images/elvira.png");
   cursor: pointer;
 }
 
@@ -832,6 +832,9 @@ input:checked + .work::before {
   position: absolute;
   top: 264px;
   left: 90px;
+  background-size: contain;
+  background-image: url("./images/ball8.png");
+  cursor: pointer;
 }
 
 .circleNine {
@@ -856,7 +859,7 @@ input:checked + .work::before {
   top: 63px;
   left: 83px;
   background-size: contain;
-  background-image: url("./images/monstersSquad.png");
+  background-image: url("./images/cat.png");
   cursor: pointer;
 }
 
@@ -879,7 +882,7 @@ input:checked + .work::before {
   top: 144px;
   left: 277px;
   background-size: contain;
-  background-image: url("./images/monstersSquad.png");
+  background-image: url("./images/mario.png");
   cursor: pointer;
 }
 
