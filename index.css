@@ -1,0 +1,905 @@
+.allPage {
+    width: 100%;
+    margin: auto;
+}
+
+/*switch*/
+.switch-marga{
+    max-width: 300px;
+    max-height: auto;
+    padding-top: 13px;
+    margin: auto;
+    position: relative;    
+}
+
+.circlecheck2 { /*forma ovalada del fondo y posicion en el cuadrado*/
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    width: 140px;
+    height: 70px;
+    -webkit-appearance: none;
+    background-image: url("./images/codeSwitch.png");
+    background-size: contain;
+    outline: none;
+    border-radius: 120px;
+    box-shadow: inset 0 0 5px rgba(167, 47, 47, 0.2);
+    transition: 0.5s;
+    color: pink;
+}
+
+.circlecheck2:checked{  /*cambia el color del ovalo cuando esta chequeado*/
+    background-image: url("./images/codeSwitchPencil.png");
+    background-size: contain; /*para que la imagen cuadre aunq sea mas grande*/
+}
+
+.circlecheck2:before{ /*circulo*/
+    content: '';
+    position: absolute;
+    width: 70px;
+    height:70px;
+    left: 0;
+    top:0;
+    background-image: url("./images/myPhotoCode.png");
+    border-radius: 100%;
+    transform:scale(1.1);
+    box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+    transition: 0.5s;
+    background-size: contain;
+}
+
+.circlecheck2:checked:before{
+    left: 50%;
+}
+
+input:checked + .work::after {
+    color: #C6C9D3;
+}
+.work::after {
+    content: 'code';
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    position: absolute;
+    left: 260px;
+    top: 31px;
+    font-size: 18px;
+    color: #CE67B6;
+    transition: 0.5s;
+}
+input:checked + .work::before {
+    color: #CE67B6;
+}
+.work:before {
+    content: 'illustration';
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    position: absolute;
+    left: 218px;
+    top: 57px;
+    font-size: 18px;
+    color: #C6C9D3;
+    transition: 0.5s; /*change color type at the same time of circle*/
+}
+
+/*finish-switch*/
+
+/*robot*/
+
+.containerRobot {
+    width: 385px;
+    /*height: 425px;*/
+    background: white;
+    position: relative;
+    transform: scale(0.6);
+    left: -88px;
+
+}
+
+.arm {
+    position: absolute;
+    width: 20px;
+    height: 80px;
+    background: #92D7D4;
+    border-radius: 20%;
+    top: 210px;
+    left: 105px; 
+  }
+  
+  .armLight {
+    position: absolute;
+    width: 4px;
+    height: 33px;
+    background: white;
+    border-radius: 20%;
+    top: 32px;
+    left: 4px;
+  }
+  
+  .armRight {
+    position: absolute;
+    left: 370px;
+    transform: rotateY(180deg);
+  }
+  
+  .buttom {
+     position: absolute;
+     width: 25px;
+     height: 25px;
+     background: #F5576E;
+     border-radius: 100%;
+     top: 8px;
+     left: 13px;
+     border: 4px solid #008681;
+  }
+ 
+  
+  .face{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: #008681;
+    border-radius: 100%;
+    top: 50px;
+    left: 125px; 
+  }
+  
+  .faceLight{
+    position: absolute;
+    width: 108px;
+    height: 120px;
+    background: #92D7D4;
+    border-radius: 100%;
+    top: 0px;
+    left: 6px; 
+  }
+  
+  .fingerOne {
+    position: absolute;
+    width: 7px;
+    height: 10px;
+    background: #92D7D4;
+    border-radius: 20%;
+    top: 300px;
+    left: 106px; 
+  }
+  
+  .fingerTwo {
+    position: absolute;
+    width: 7px;
+    height: 10px;
+    background: #92D7D4;
+    border-radius: 20%;
+    top: 300px;
+    left: 121px; 
+  }
+  
+  .fringe {
+      position: absolute;
+      top: 40px;
+      left: 125px;
+      width: 120px;
+      height: 58px;
+      background: #000;
+      border-radius: 100px 100px 0 0;
+  }
+  
+  .fringeLight { 
+    width: 0; 
+    height: 0; 
+    position: absolute;
+    border-left: 7px solid transparent; 
+    border-right: 7px solid transparent; 
+    border-bottom: 13px solid #92D7D4; 
+    top: 45px;
+    left: 20px;
+  }
+  
+  .fringeLight1 { 
+    width: 0; 
+    height: 0; 
+    position: absolute;
+    border-left: 7px solid transparent; 
+    border-right: 7px solid transparent; 
+    border-bottom: 13px solid #92D7D4; 
+    top: 45px;
+    left: 80px;
+  }
+  
+  .hand {
+    position: absolute;
+    width: 35px;
+    height: 20px;
+    background: #008681;
+    border-radius: 20%;
+    top: 280px;
+    left: 100px; 
+  }
+  
+  .handLight {
+    position: absolute;
+    width: 4px;
+    height: 10px;
+    background: white;
+    border-radius: 20%;
+    top: 4px;
+    left: 4px;
+  }
+  
+  
+  .circleHairLeft{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 100%;
+    top: 30px;
+    left: 115px; 
+  }
+  
+  .circleHairRight{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 100%;
+    top: 30px;
+    left: 205px; 
+  }
+  
+  .eyesBackLeft{
+    position: absolute;
+    width: 45px;
+    height: 40px;
+    background: black;
+    border-radius: 100%;
+    top: 50px;
+    left: 10px; 
+  }
+  
+  .eyesWhiteLeft{
+    position: absolute;
+    width: 37px;
+    height: 35px;
+    background: white;
+    border-radius: 100%;
+    top: 5px;
+    left: 7px; 
+  }
+  
+  .eyesBackRight{
+    position: absolute;
+    width: 45px;
+    height: 40px;
+    background: black;
+    border-radius: 100%;
+    top: 50px;
+    left: 65px; 
+  }
+  
+  .eyesWhiteRight{
+    position: absolute;
+    width: 37px;
+    height: 35px;
+    background: white;
+    border-radius: 100%;
+    top: 5px;
+    left: 2px; 
+  }
+  
+  .hairBack{
+    position: absolute;
+    width: 150px;
+    height: 180px;
+    background: black;
+    border-radius: 100%;
+    top: 30px;
+    left: 109px; 
+  }
+  
+  .hairBackLeft{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: black;
+    border-radius: 100%;
+    top: 140px;
+    left: 80px; 
+  }
+  
+  .hairBackRight{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: black;
+    border-radius: 100%;
+    top: 140px;
+    left: 190px; 
+  }
+  
+  .lightLeft1{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: white;
+    border-radius: 100%;
+    top: 5px;
+    left: 4px; 
+  }
+  
+  .lightRight1{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: white;
+    border-radius: 100%;
+    top: 5px;
+    left: 15px; 
+  }
+  
+  .lightLeft2{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: white;
+    border-radius: 100%;
+    top: 10px;
+    left: 5px; 
+  }
+  
+  .lightRight2{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: white;
+    border-radius: 100%;
+    top: 10px;
+    left: 12px; 
+  }
+  
+  .mouthDown {
+    position: absolute;
+    width: 26px;
+    height: 7px;
+    top: 105px;
+    left: 47px;
+    background: #DD3E5E;
+    border-radius: 0% 0% 100% 100%;
+  }
+  
+  .mouthUp {
+      position: absolute;
+      width: 18px;
+      height: 7px;
+      top: 98px;
+      left: 41px;
+      background: #F5576E;
+      border-radius: 100% 100% 0% 0%;
+  }
+  
+  .mouthUpTwo {
+      position: absolute;
+      width: 18px;
+      height: 7px;
+      top: 98px;
+      left: 59px;
+      background: #F5576E;
+      border-radius: 100% 100% 0% 0%;
+  }
+  
+  .neck{
+    position: absolute;
+    width: 28px;
+    top: 151px;
+    left: 156px;
+    border-top: 53px solid #008681;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+  }
+  
+  .body{
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 50% 100%;
+    border-bottom-right-radius: 50% 100%;
+    /*transform: rotate(-40deg);*/
+    top: 190px;
+    left: 125px;
+    background: radial-gradient(#008681, #92D7D4);  
+  }
+  
+  .bodyDown{
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 50% 100%;
+    border-bottom-right-radius: 50% 100%;
+    top: 295px;
+    left: 157px;
+    background: radial-gradient(#008681, #92D7D4);  
+  }
+  
+  .eyelashLeft { 
+    width: 0; 
+    height: 0; 
+    position: absolute;
+    border-left: 14px solid transparent; 
+    border-right: px solid transparent; 
+    border-top: 13px solid black; 
+    top: 55px;
+    left: 3px;
+  }
+  
+  .eyelashRight { 
+    width: 0; 
+    height: 0; 
+    position: absolute;
+    border-left: px solid transparent; 
+    border-right: 14px solid transparent; 
+    border-top: 13px solid black; 
+    top: 55px;
+    left: 103px;
+  }
+  
+  .fire{
+    position: absolute;
+    width: 33px;
+    height: 70px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 60% 100%;
+    border-bottom-right-radius: 60% 100%;
+    top: 330px;
+    left: 170px;
+    background: #FBBF3B;  
+    animation:  fire 0.6s;
+    animation-iteration-count: infinite;
+  } 
+  
+  @keyframes fire {
+    100% { transform: scale(0.4); }
+    100% { transform: scale(0.7); }
+  }
+  
+  .fireDark {
+    position: absolute;
+    width: 15px;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 60% 100%;
+    border-bottom-right-radius: 60% 100%;
+    top: 10px;
+    left: 8px;
+    background: #F79526;  
+  }
+  
+  .pupilLeft{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #008681;
+    border-radius: 100%;
+    top: 5px;
+    left: 5px; 
+  }
+  
+  .pupilRight{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #008681;
+    border-radius: 100%;
+    top: 5px;
+    left: 5px; 
+  }
+  
+  
+  .scarf { 
+    position: absolute;
+    border-bottom: 40px solid #DD3E5E; 
+    border-left: 25px solid transparent; 
+    border-right: 25px solid transparent; 
+    height: 0;       
+    width: 40px;
+    top: -26px;
+    left: -30px;
+  }
+  
+  .scarfOne { 
+    position: absolute;
+    border-bottom: 10px solid #DD3E5E; 
+    border-left: 25px solid transparent; 
+    border-right: 0px solid transparent; 
+    height: 0;       
+    width: 15px;
+    top: 180px;
+    left: 125px;
+  }
+  
+  .scarfTwo { 
+    position: absolute;
+    border-bottom: 10px solid #F5576E; 
+    border-left: 25px solid transparent; 
+    border-right: 0px solid transparent; 
+    height: 0;       
+    width: 20px;
+    top: 180px;
+    left: 139px;
+    transform: rotate(50deg);
+  }
+  
+  .shoulder {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #92D7D4;
+    border-radius: 100%;
+    top: 190px;
+    left: 100px; 
+  }
+  
+  .shoulderCircle {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 100%;
+    top: 10px;
+    left: 5px; 
+  }
+  
+  .shadow {
+    position: absolute;
+    width: 50px;
+    height: 47px;
+    background: #008681;
+    border-radius: 100%;
+    top: 3px;
+    left: 1px; 
+  }
+  
+  .squareText{
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 50% 100%;
+    border-bottom-right-radius: 50% 100%;
+    top: 12px;
+    left: 11px;
+    border: 4px solid #008681;  
+  }
+  
+  .stickLeft1 {
+    position: absolute;
+    width: 5px;
+    height: 40px;
+    background: #F5576E;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    top: 30px;
+    left: 120px;
+    transform: rotate(-60deg);
+  }
+  
+  .stickLeft2 {
+    position: absolute;
+    width: 5px;
+    height: 42px;
+    background: #F5576E;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    top: 20px;
+    left: 150px;
+    transform: rotate(30deg);
+  }
+  
+  .stickRight1 {
+    position: absolute;
+    width: 5px;
+    height: 40px;
+    background: #F5576E;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    top: 30px;
+    left: 240px;
+    transform: rotate(60deg);
+  }
+  
+  .stickRight2 {
+    position: absolute;
+    width: 5px;
+    height: 42px;
+    background: #F5576E;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    top: 22px;
+    left: 215px;
+    transform: rotate(-30deg);
+  }
+  
+  .text {
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    animation: light 0.5s;
+    animation-iteration-count: infinite;
+  } 
+  
+  @keyframes light {
+    0% { color: white; }
+    50% { color: #F79526; }
+    100% { color: #F79526; }
+  }
+  
+  .hello {
+    padding-top: 20px;
+  }
+  
+  .robot {
+    animation:  space 0.6s;
+    animation-iteration-count: infinite;
+    transition: ease-in all 0.2s;
+  } 
+  
+  @keyframes space {
+    25% {  transform: translate(0,5px); }
+    50% {  transform: translate(0,10px); }
+    100% {  transform: translate(0,20px); }
+  }
+
+  .bocadillo{
+    width: 172px;
+    height: 98px;
+    background: #F5576E;
+    position: relative;
+    top: 30px;
+    left: 185px;
+    border-radius: 45%;
+  }
+
+.pico{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: px solid transparent;
+    border-right: 14px solid transparent;
+    border-top: 20px solid #F5576E;
+    top: 55px;
+    left: -10px;
+    transform: rotate(70deg);
+
+}
+
+.me {
+  font-family: 'Arial Rounded MT Bold';
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  line-height: 1.4;
+}
+  
+.marga {
+  padding-top: 21px;
+}
+
+.presentation{
+  width: 80%;
+  margin: auto;
+  transform: scale(0.7);
+}
+
+.bulb {
+  width: 400px;
+  height: 513px;
+  margin: auto;
+  background: ;
+  margin-top: 120px;
+  position: relative;
+}
+
+.buttomJs {
+  width: 88px;
+  height: 15px;
+  position: absolute;
+  background: grey;
+  top: 443px;
+  left: 166px;
+}
+
+.buttomCss {
+  width: 88px;
+  height: 26px;
+  position: absolute;
+  background: grey;
+  top: 460px;
+  left: 166px;
+}
+
+.buttomHtml {
+  width: 88px;
+  height: 18px;
+  position: absolute;
+  border-radius: 0% 0% 60% 60%;
+  background: grey;
+  top: 488px;
+  left: 166px;
+}
+
+.buttomCircle {
+  width: 15px;
+  height: 10px;
+  position: absolute;
+  border-radius: 100%;
+  background: grey;
+  top: 502px;
+  left: 200px;
+
+}
+
+.circleOne {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: grey;
+  position: absolute;
+  top: 398px;
+  left: 164px;
+}
+
+.circleTwo {
+  width: 57px;
+  height: 57px;
+  border-radius: 100%;
+  background: grey;
+  position: absolute;
+  top: 374px;
+  left: 206px;
+}
+
+.circleThree {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background: grey;
+  position: absolute;
+  top: 33px;
+  left: 216px;
+}
+
+.circlefour {
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  background: grey;
+  position: absolute;
+  top: 35px;
+  left: 169px;
+}
+
+.circlefive {
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  background: grey;
+  position: absolute;
+  top: 62px;
+  left: 194px;
+}
+
+.circleSix {
+  width: 135px;
+  height: 135px;
+  border-radius: 100%;
+  background: grey;
+  position: absolute;
+  top: 173px;
+  left: 147px;
+}
+
+.circleSeven {
+  width: 82px;
+  height: 82px;
+  border-radius: 100%;
+  background: grey;
+  position: absolute;
+  top: 309px;
+  left: 140px;
+}
+
+.circleEight {
+  width: 67px;
+  height: 67px;
+  border-radius: 100%;
+  background: grey;
+  position: absolute;
+  top: 264px;
+  left: 90px;
+}
+
+.circleNine {
+  width: 98px;
+  height: 98px;
+  border-radius: 100%;
+  background: grey;
+  position: absolute;
+  top: 165px;
+  left: 47px;
+}
+
+.circleTen {
+  width: 106px;
+  height: 106px;
+  border-radius: 100%;
+  background: grey;
+  position: absolute;
+  top: 63px;
+  left: 83px;
+}
+
+.circleEleven {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background: grey;
+  position: absolute;
+  top: 131px;
+  left: 52px;
+}
+
+.circleTwelve {
+  width: 98px;
+  height: 98px;
+  border-radius: 100%;
+  background: grey;
+  position: absolute;
+  top: 144px;
+  left: 277px;
+}
+
+.circleThirteen {
+  width: 63px;
+  height: 63px;
+  border-radius: 100%;
+  background: grey;
+  position: absolute;
+  top: 304px;
+  left: 224px;
+}
+
+.circleFourteen {
+  width: 47px;
+  height: 47px;
+  border-radius: 100%;
+  background: grey;
+  position: absolute;
+  top: 242px;
+  left: 286px;
+}
+
+.circleFifteen {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background: grey;
+  position: absolute;
+  top: 284px;
+  left: 272px;
+}
+
+.circleSixteen {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background: grey;
+  position: absolute;
+  top: 116px;
+  left: 306px;
+}
