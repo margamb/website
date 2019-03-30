@@ -1,0 +1,446 @@
+.allPage {
+    width: 80%;
+    margin: auto;
+}
+
+.logoBack{
+    width: 80px;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 67%;
+    cursor: pointer;
+}
+
+/* switch-supermario*/
+
+.switch-supermario{
+    width: 385px;
+    height: 385px;
+    background: ;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.switch-supermario input {
+    position: absolute;
+}
+
+.SP{
+    position: absolute;
+    left: 0%;
+    transition: 0.5s;
+}
+
+
+input:checked + .toggleSp .SP{
+    left: -46%;
+    transition: 0.5s;
+}
+
+input:checked + .toggleSp{
+    background: #3AB6F5;
+}
+
+.supermarioBody{
+    position: absolute;
+    left: 0%;
+    top: 16px;
+    transition: 0.5s;
+}
+
+input:checked + .toggleSp .supermarioBody{
+    left: -46%;
+    top: 0%;
+    transition: 0.5s;
+}
+
+.toggleSp{
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    width: 280px;
+    height: 140px;
+    -webkit-appearance: none;
+    background: #9CA8F7;
+    outline: none;
+    border-radius: 120px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+    overflow: hidden;
+    /*box-shadow:1.125em 1.125em 0 1.125em rgba(0,0,0,0.3) inset*/
+    transition: 0.5s;
+}
+
+input:checked + .toggleSp .toggle__handlerSP { /*para que se mueva el circulo */
+    background-color: white;
+    left: 50%;
+    /*transform: translate3d(40px, 0, 0) rotate(0);*/
+}
+
+input:checked + .toggleSp .toggle__handlerSP .mushroomTopSp{
+    background-image: radial-gradient(#00872A, #013E14);
+    transition: 0.5s;
+    /* transform: translate3d(40px, 0, 0) rotate(0); */
+}
+
+.toggle__handlerSP{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    top: 5px;
+    left: 8px;
+    width: 130px;
+    height: 130px;
+    background-color: whitesmoke;
+    border-radius: 100%;
+    box-shadow: 2px 9px 26px rgba(0, 0, 0, 0.3);
+    transition: all 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    /* transform: rotate(-45deg); */
+    -webkit-appearance: none;
+}
+
+
+.mushroomTopSp{
+    position: absolute;
+    top: 27px;
+    left: 21px;
+    width: 90px;
+    height: 60px;
+    border-radius: 140px 140px 80px 80px;
+    background-image: radial-gradient(#b2000c, #53170f);
+    /*background-image: radial-gradient(circle at 50% 120%,rgba(0,0,0,0.7) 23%,rgba(0,0,0,0) 48%),linear-gradient(30deg,rgba(0,0,0,0.4) 10%,rgba(0,0,0,0) 20%),radial-gradient(circle at 50% 33%,#f8f6f7 32%,rgba(255,255,255,0) 32%),radial-gradient(circle at -13% 55%,#f8f6f7 20%,rgba(255,255,255,0) 20%),radial-gradient(circle at 113% 55%,#f8f6f7 20%,rgba(255,255,255,0) 20%),linear-gradient(to bottom,#ef0015 20%,#b2000c 100%);*/
+    overflow: hidden;
+}
+
+.mushroombottomSp{
+    position: absolute;
+    top: 76px;
+    left: 42px;
+    width: 48px;
+    height: 30px;
+    background: radial-gradient(#f1d38b, #C7AE73);
+    /*border-radius: 180px 180px 140px 140px;*/
+    border-top-right-radius: 180px 100px;
+    border-top-left-radius: 180px 100px;
+    border-bottom-right-radius: 140px 100px;
+    border-bottom-left-radius: 140px 100px;
+}
+
+.circleMushroom{
+    position: absolute;
+    top: 14px;
+    left: -27px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: white;
+}
+
+.circleMushroom1{
+    position: absolute;
+    top: 4px;
+    left: 26px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: white;
+}
+
+.circleMushroom2{
+    position: absolute;
+    top: 14px;
+    left: 76px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: white;
+}
+
+.mushroomEyeLeftSp{
+    position: absolute;
+    top: 6px;
+    left: 14px;
+    width: 5px;
+    height: 9px;
+    border-radius: 100%;
+    background: black;
+}
+
+.mushroomEyeRightSp{
+    position: absolute;
+    top: 6px;
+    left: 30px;
+    width: 5px;
+    height: 9px;
+    border-radius: 100%;
+    background: black;
+}
+
+.floorSp{
+    position: absolute;
+    top: 128px;
+    left: 10px;
+    width: 264px;
+    height: 20px;
+    background: #D64F00;
+}
+
+.cloudCircleSp{
+    position: absolute;
+    top: 10px;
+    left: -9px;
+    width: 22px;
+    height: 18px;
+    border-radius: 100%;
+    background: white;
+}
+
+.cloudCircle1Sp{
+    position: absolute;
+    top: 7px;
+    left: 31px;
+    width: 22px;
+    height: 18px;
+    border-radius: 100%;
+    background: white;
+}
+
+.cloudSp{
+    position: absolute;
+    top: 24px;
+    left: 113px;
+    width: 45px;
+    height: 29px;
+    border-radius: 37%;
+    background: white;
+}
+
+.bodySp{
+    position: absolute;
+    top: 65px;
+    left: 179px;
+    width: 35px;
+    height: 44px;
+    border-radius: 37%;
+    background: #CD0518;
+}
+
+.breastplateSp{
+    position: absolute;
+    top: 68px;
+    left: 185px;
+    width: 24px;
+    height: 44px;
+    border-radius: 37%;
+    background: #1F4793;
+}
+
+.buttomleftSp{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 5px;
+    height: 7px;
+    border-radius: 37%;
+    background: #E39123;
+}
+
+.buttomRightSp{
+    position: absolute;
+    top: 2px;
+    left: 17px;
+    width: 5px;
+    height: 7px;
+    border-radius: 37%;
+    background: #E39123;
+}
+
+.hatbackSp{
+    position: absolute;
+    top: 29px;
+    left: 176px;
+    width: 41px;
+    height: 40px;
+    border-radius: 37%;
+    transform: rotate(45deg);
+    background: #CD0518;
+}
+
+.hatCircleSp{
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 1000%;
+    background: #E39123;
+}
+
+.hatSp{
+    position: absolute;
+    top: 37px;
+    left: 178px;
+    width: 38px;
+    height: 27px;
+    border-radius: 92%;
+    background: rgb(90, 1, 10);
+}
+
+.earLeftSp{
+    position: absolute;
+    top: 55px;
+    left: 178px;
+    width: 10px;
+    height: 10px;
+    border-radius: 1000%;
+    background: #DBA782;
+}
+
+.earRightSp{
+    position: absolute;
+    top: 55px;
+    left: 206px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #DBA782;
+}
+
+.faceSp{
+    position: absolute;
+    top: 43px;
+    left: 182px;
+    width: 30px;
+    height: 30px;
+    border-radius: 40%;
+    background: #EEC5B2;
+}
+
+.hairSp{
+    position: absolute;
+    top: 44px;
+    left: 180px;
+    width: 34px;
+    height: 22px;
+    border-radius: 40%;
+    background: black;
+}
+
+.eyeLeftSp{
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    width: 6px;
+    height: 8px;
+    border-radius: 100%;
+    background: black;
+}
+
+.eyesLeftLightSp{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 2px;
+    height: 2px;
+    border-radius: 100%;
+    background: white;
+}
+
+.eyeRightSp{
+    position: absolute;
+    top: 5px;
+    left: 19px;
+    width: 6px;
+    height: 8px;
+    border-radius: 100%;
+    background: black;
+}
+
+.eyesRightLightSp{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 2px;
+    height: 2px;
+    border-radius: 100%;
+    background: white;
+}
+
+.noseSp{
+    position: absolute;
+    top: 13px;
+    left: 9px;
+    width: 12px;
+    height: 9px;
+    border-radius: 100%;
+    background: #DBA782;
+}
+
+.moustacheSp{
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    width: 21px;
+    height: 4px;
+    border-radius: 44%;
+    background: black;
+}
+
+.tubeDown{
+    position: absolute;
+    top: 87px;
+    left: 177px;
+    width: 40px;
+    height: 41px;
+    background: #34A62E;
+}
+
+.tubeDownLight{
+    position: absolute;
+    top: 0;
+    left: 24px;
+    width: 10px;
+    height: 41px;
+    background: #82CD0F;
+}
+
+.tubeDownWhite{
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    width: 2px;
+    height: 35px;
+    background: white;
+}
+
+.tubeUp{
+    position: absolute;
+    top: 80px;
+    left: 172px;
+    width: 50px;
+    height: 10px;
+    background: #34A62E;
+}
+
+.tubeUpLight{
+    position: absolute;
+    top: 0;
+    left: 35px;
+    width: 10px;
+    height: 10px;
+    background: #82CD0F;
+}
+
+.tubeUpWhite{
+    position: absolute;
+    top: 3px;
+    left: 6px;
+    width: 2px;
+    height: 5px;
+    background: white;
+}

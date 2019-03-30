@@ -91,6 +91,7 @@ input:checked + .work::before {
   transform: scale(0.6);
   left: -220px;
   top: 505px;
+  padding-bottom: 20px;
 
 }
 
