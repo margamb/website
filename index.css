@@ -954,13 +954,25 @@ input:checked + .work::before {
   border-bottom-right-radius: 0% 100%;
 }
 
+
+.name {
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  position: absolute;
+  left: 213px;
+  top: 80px;
+  font-size: 25px;
+  color: #CE67B6;
+  font-weight: 700;
+}
+
 .job {
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
   position: absolute;
-  left: 170px;
-  top: 80px;
-  font-size: 13px;
+  left: 233px;
+  top: 108px;
+  font-size: 16px;
   color: #CE67B6;
+  font-weight: 400;
 }
 
 .resume {
@@ -971,4 +983,29 @@ input:checked + .work::before {
     font-size: 13px;
     color: #CE67B6;
 
+}
+
+.media {
+  width: 86%;
+  position: relative;
+  left: 271px;
+  top: 106px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.curriculum {
+  width: 10%;
+  padding-right: 2px;
+}
+
+.instagram {
+  width: 10%;
+  padding-right: 2px;
+}
+
+.behance {
+  width: 10%;
 }
