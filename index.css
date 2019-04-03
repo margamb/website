@@ -933,44 +933,31 @@ input:checked + .work::before {
   position: relative;
   margin: auto;
   overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .meFooter {
-  width: 338px;
+  width: 60%;
   position: relative;
-  left: -51px;
+  left: -37px;
   top: 4px;
 }
 
-.shapeBack { 
-  position: absolute;
-  top: 123px;
-  background: ;
-  width: 483px;
-  height: 200px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-left-radius: 0% 100%;
-  border-bottom-right-radius: 0% 100%;
-}
-
-
 .name {
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
-  position: absolute;
-  left: 213px;
-  top: 80px;
-  font-size: 25px;
+  
+  font-size: 15px;
   color: #CE67B6;
   font-weight: 700;
 }
 
 .job {
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
-  position: absolute;
-  left: 233px;
-  top: 108px;
-  font-size: 16px;
+  padding-top: 5px ;
+  font-size: 14px;
   color: #CE67B6;
   font-weight: 400;
 }
@@ -980,32 +967,49 @@ input:checked + .work::before {
     position: absolute;
     left: 170px;
     top: 100px;
-    font-size: 13px;
+    font-size: 14px;
     color: #CE67B6;
 
 }
 
 .media {
-  width: 86%;
+  width: 40%;
+  height: 162px;
   position: relative;
-  left: 271px;
-  top: 106px;
+  left: px;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
 }
 
 a {
   text-decoration: none;
 }
 
+.mediaIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  
+}
+
 .curriculum {
-  width: 10%;
-  padding-right: 2px;
+  width: 85%;
+  padding-top: 5px;
 }
 
 .instagram {
-  width: 10%;
-  padding-right: 2px;
+  width: 55%;
+  padding-top: 5px ;
+  position: relative;
+  left: 14px;
 }
 
 .behance {
-  width: 10%;
+  width: 55%;
+  padding-top: 5px ;
 }
