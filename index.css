@@ -928,12 +928,12 @@ input:checked + .work::before {
 }
 
 .footer{
-  padding-top: 47px;
-    width: 100%;
-    height: auto;
-    position: relative;
+  width: 400px;
+    height: 176px;
     margin: auto;
-
+    background: ;
+    margin-top: 37px;
+    position: relative;
   /*display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -950,24 +950,23 @@ input:checked + .work::before {
 
 .name {
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
-  font-size: 22px;
-  color: #CE67B6;
-  font-weight: 700;
-  position: absolute;
-  left: 253px;
-  top: 46px;
+    font-size: 20px;
+    color: #CE67B6;
+    font-weight: 700;
+    position: absolute;
+    left: 167px;
+    top: 44px;
 }
 
 .job {
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
   padding-top: 5px;
-  font-size: 15px;
+  font-size: 14px;
   color: #CE67B6;
   font-weight: 400;
   position: absolute;
-  left: 253px;
-  top: 67px;
-
+  left: 168px;
+  top: 64px;
 }
 
 
@@ -985,25 +984,25 @@ a {
 
 
 .curriculum {
-  width: 10%;
-    padding-top: 5px;
-    position: absolute;
-    left: 270px;
-    top: 95px;
+  width: 7%;
+  padding-top: 5px;
+  position: absolute;
+  left: 200px;
+  top: 95px;
 }
 
 .instagram {
-  width: 10%;
-    padding-top: 5px;
-    position: absolute;
-    left: 326px;
-    top: 95px;
+  width: 7%;
+  padding-top: 5px;
+  position: absolute;
+  left: 240px;
+  top: 95px;
 }
 
 .behance {
-  width: 10%;
-    padding-top: 5px;
-    position: absolute;
-    left: 385px;
-    top: 95px;
+  width: 7%;
+  padding-top: 5px;
+  position: absolute;
+  left: 280px;
+  top: 95px;
 }
