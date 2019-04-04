@@ -86,7 +86,7 @@ input:checked + .work::before {
 .containerRobot {
   width: 385px;
   /* height: 425px; */
-  background: white;
+  background: ;
   position: relative;
   transform: scale(0.6);
   left: -220px;
@@ -666,31 +666,7 @@ input:checked + .work::before {
     border-radius: 45%;
   }
 
-.pico{
-    width: 0;
-    height: 0;
-    position: absolute;
-    border-left: px solid transparent;
-    border-right: 14px solid transparent;
-    border-top: 20px solid #F5576E;
-    top: 55px;
-    left: -10px;
-    transform: rotate(70deg);
 
-}
-
-.me {
-  font-family: 'Arial Rounded MT Bold';
-  font-size: 15px;
-  font-weight: 400;
-  color: white;
-  text-align: center;
-  line-height: 1.4;
-}
-  
-.marga {
-  padding-top: 21px;
-}
 
 .presentation{
   width: 80%;
@@ -703,8 +679,42 @@ input:checked + .work::before {
   height: 513px;
   margin: auto;
   background: ;
-  margin-top: 37px;
+  margin-top: 22px;
   position: relative;
+}
+
+.lightButtom {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background: #EEEEEE;
+  top: 0px;
+  left: 63px;
+}
+
+.twoLight {
+  height: 26px;
+  position: absolute;
+  background: #EEEEEE;
+  top: 0px;
+  left: 63px;
+}
+
+.threeLight {
+  height: 35px;
+  position: absolute;
+  background: #EEEEEE;
+  top: 0px;
+  left: 63px;
+}
+
+.lightWhite {
+  width: 4px;
+  height: 15px;
+  position: absolute;
+  background: white;
+  top: 3px;
+  left: 7px;
 }
 
 .buttomJs {
@@ -733,6 +743,7 @@ input:checked + .work::before {
   background: #C6C9D3;
   top: 488px;
   left: 166px;
+  overflow: hidden;
 }
 
 .buttomCircle {
@@ -745,6 +756,25 @@ input:checked + .work::before {
   left: 200px;
 
 }
+
+.circleLight {
+  width: 230px;
+  height: 461px;
+  border-radius: 60%;
+  background: white;
+  position: absolute;
+  top: 0px;
+  left: 96px;
+  animation: lightBulb 1.1s;
+  animation-iteration-count: infinite;
+  transition: ease-in all 0.2s;
+}
+
+@keyframes lightBulb {
+  0% {  background-image: radial-gradient(white,#FFF9AE); }
+
+  100% { background-image: radial-gradient(#FFF9AE, white);}
+} 
 
 .circleOne {
   width: 40px;
@@ -927,6 +957,30 @@ input:checked + .work::before {
   left: 306px;
 }
 
+.informcircle {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background: #F5576E;
+  position: absolute;
+  top: 453px;
+  left: -118px;
+}
+
+.textCircleInform {
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-size: 14px;
+  color: white;
+  font-weight: 700;
+  position: absolute;
+  left: 19px;
+  top: 2px;
+  text-align: center;
+  line-height: 1.4;
+  
+}
+
+
 .footer{
   width: 400px;
     height: 176px;
@@ -951,10 +1005,10 @@ input:checked + .work::before {
 .name {
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
     font-size: 20px;
-    color: #CE67B6;
+    color: #F5576E;
     font-weight: 700;
     position: absolute;
-    left: 167px;
+    left: 180px;
     top: 44px;
 }
 
@@ -962,10 +1016,10 @@ input:checked + .work::before {
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
   padding-top: 5px;
   font-size: 14px;
-  color: #CE67B6;
+  color: #F5576E;
   font-weight: 400;
   position: absolute;
-  left: 168px;
+  left: 180px;
   top: 64px;
 }
 
@@ -987,7 +1041,7 @@ a {
   width: 7%;
   padding-top: 5px;
   position: absolute;
-  left: 200px;
+  left: 220px;
   top: 95px;
 }
 
@@ -995,7 +1049,7 @@ a {
   width: 7%;
   padding-top: 5px;
   position: absolute;
-  left: 240px;
+  left: 260px;
   top: 95px;
 }
 
@@ -1003,6 +1057,6 @@ a {
   width: 7%;
   padding-top: 5px;
   position: absolute;
-  left: 280px;
+  left: 300px;
   top: 95px;
 }
