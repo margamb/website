@@ -90,14 +90,62 @@ input:checked + .work::before {
     padding-top: 20px;
 }
 
+.explanation {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.textExpl {
+    width: 70%;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    left: 218px;
+    top: 57px;
+    font-size: 16px;
+    color: #C6C9D3;
+    align-self: center;
+    padding-left: 10px;
+}
+
+.taxi {
+    width: 30%;
+    border-radius: 100%;
+    align-self: center;
+}
+
 .imgPosters {
     width: 80%;
     height: auto;
-    background: grey;
     position: relative;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-self: center;
+    padding-top: 5px;
 }
+
+@media only screen and (min-width: 601px) {
+    
+    .posters{
+        padding-top: 40px;
+    }
+
+    .imgPosters {
+      width: 40%;
+    }
+  }
+
+  @media only screen and (min-width: 1201px) {
+    .posters{
+        padding-top: 50px;
+    }
+    
+    .imgPosters {
+      width: 30%;
+    }
+  }
