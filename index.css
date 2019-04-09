@@ -798,6 +798,9 @@ input:checked + .work::before {
   position: absolute;
   top: 374px;
   left: 206px;
+  background-size: contain;
+  background-image: url("./images/fundamentalLaws.png");
+  cursor: pointer;
 }
 
 .circleThree {
@@ -929,6 +932,9 @@ input:checked + .work::before {
   position: absolute;
   top: 304px;
   left: 224px;
+  background-size: contain;
+  background-image: url("./images/addNotes.png");
+  cursor: pointer;
 }
 
 .circleFourteen {

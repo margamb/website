@@ -1,0 +1,76 @@
+.grid {
+  display: grid;
+  margin: auto;
+  grid-template: 10fr / 1fr;
+}
+
+h4{
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    font-size: 18px;
+    color: #303030;
+    text-align: center;
+}
+
+.allPage {
+  width: 100%;
+  margin: auto;
+}
+
+.logoBack{
+  width: 80px;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 67%;
+  cursor: pointer;
+}
+
+.clickMonkey{
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  color: #2A7588;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 29px;
+}
+
+.projects{
+  color: #1D4E5A;
+  font-style: Nobel;
+}
+
+
+
+body {
+  background: white;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.margaMartinez{
+  color: #2A7588;
+  font-family: Nobel;
+  font-weight: bold;
+}
+
+.MargaCode {
+  width: 100%;
+  display:block:
+}
+
+.LawsSoftwareDevelopment {
+  width: 100%;
+}
+
+.occamSRazor{
+    color: #2A7588;
+    font-size: 30px;
+    position: absolute;
+    z-index:1;
+    width: 97%;
+    text-align: center;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+
+
+}

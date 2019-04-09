@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Marga Martinez</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link href="./fundamentalLaws.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class='allPage'>
+  <div>
+    <a href="../../index.html">
+      <img class="logoBack" src="../../images/margaMartinez.png" alt="">
+    </a>
+  </div>
+
+<h4 class="fundamentalLaws">15 Fundamental Laws of Software Development</h4>
+   <div class="banner">
+    <h3 class="clickMonkey">Click on monkey to get wisdom.</h3>
+    <p id="textLaws" class="occamSRazor">Occam's Razor</p>
+    <img class="LawsSoftwareDevelopment" src="./images/15-Fundamental-Laws-of-Software-Development.png" / onClick="textLaws()">
+      <script type="text/javascript">
+
+      var laws = [ "Hanlon's Razor","The Pareto Principle","Dunning-Kruger Effect",
+      "Linus's Law","Postel's Law","Eagleson's Law","Peter Principle","Dilbert Principle",
+      "Hofstadter's Law", "The 90-90 Rule", "Parkinson's Law", "Sayre's Law", "Parkinson's Law of Triviality",
+      "Law of Argumentative Comprehension",];
+
+      function getRandom(arr) {
+        return arr[Math.floor(Math.random() * arr.length)]
+      }
+     console.log (getRandom(laws));
+
+     function textLaws(newText) {
+       var elem = document.getElementById("textLaws");
+       elem.innerHTML = getRandom(laws);
+     }
+
+      </script>
+   </div>
+</div>
+
+</body>
+</html>
