@@ -1,0 +1,658 @@
+.allPage {
+    width: 100%;
+    margin: auto;
+}
+
+.logoBack{
+    width: 80px;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 67%;
+    cursor: pointer;
+}
+
+/*batman-joker*/
+
+.batman-joker{
+    width: 385px;
+    height: 385px;
+    background: grey;  
+    position: relative; 
+    overflow: hidden;
+    margin: auto;
+
+}
+
+.turn-off{
+    position: absolute;
+    width: 71px;
+    height: 50px;
+    background: white;
+    top: 18px;
+    left: 20px;
+    border-radius: 19%;
+    padding: 1%;
+    cursor: pointer;
+}
+
+.turn-off:hover{
+    background: #FAA502;
+}
+
+/* .arrow{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 19px solid #000;
+    top: 20px;
+    left: 22px;
+    transform: rotate(-48deg);
+}
+
+.arrow1{
+    position: absolute;
+    width: 8px;
+    height: 14px;
+    background: #000;
+    top: 31px;
+    left: 36px;
+    transform: rotate(-48deg);
+}
+
+.circle1{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid grey;
+    top: 13px;
+    left: 14px;
+    border-radius: 100%;
+}
+
+.circle2{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border: 3px solid grey;
+    top: 9px;
+    left: 10px;
+    border-radius: 100%;
+} */
+
+.text-click{
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    color: red;
+    margin: 0;
+    padding-top: 6%;
+}
+
+
+.lamps{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 52px solid #000;
+    top: 0;
+    left: 138px;
+}
+
+.light-ball{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #333;
+    top: 29px;
+    left: 175px;
+    border-radius: 100%;
+}
+
+.light-ball--on {
+    background: radial-gradient(white, yellow);
+}
+
+.dark-curtain{
+    width: 385px;
+    height: 385px;
+    background: #000;  
+    position: absolute; 
+    opacity: 0.9;
+}
+
+
+
+
+.light-reflections{
+    width: 401px;
+    height: 413px;
+    background: transparent;
+    position: absolute;
+    top: 86px;
+    left: -7px;
+    opacity: 0.2;
+    transform: rotate(45deg);
+}
+
+
+.batman-face{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    background: #000;
+    top: 148px;
+    left: 189px;
+}
+
+.bat-nose{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 41px solid grey;
+    border-right: 15px solid transparent;
+    left: 74px;
+    top: 69px;
+    opacity: 0.4;
+}
+
+.bat-body-left {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 73px solid #000;
+    border-left: 264px solid transparent;
+    top: 313px;
+    left: 1px;
+}
+
+.bat-body-right {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 73px solid #000;
+    border-right: 264px solid transparent;
+    top: 313px;
+    left: 264px;
+}
+
+.bat-face1{
+    position: absolute;
+    border-top: 81px solid #F1AA95;
+    border-left: 37px solid transparent;
+    border-right: 37px solid transparent;
+    height: 0px;
+    width: 52px;
+    top: 121px;
+    left: 13px;    
+}
+
+.bat-face-shadow{
+    position: absolute;
+    width: 70px;
+    height: 81px;
+    background: #000;
+    top: -81px;
+    left: 23px;
+    opacity: 0.1;
+
+}
+.bat-mouth{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 12px solid #000;
+    border-left: 39px solid transparent;
+    top: 140px;
+    left: 55px;
+}
+
+.bat-eye-left{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 12px solid white;
+    border-left: 36px solid transparent;
+    top: 53px;
+    left: 87px;
+}
+
+.bat-eye-right{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 12px solid white;
+    border-right: 36px solid transparent;
+    top: 53px;
+    left: 27px;
+}
+
+.batman-circle-face{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: #000;
+    top: 120px;
+    left: 189px;
+    border-radius: 100%;
+}
+
+.batman-circle-face-light{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: #333333;
+    top: 114px;
+    left: 189px;
+    border-radius: 100%;
+}
+
+.batman-circle-face-light--on{
+    background: #FFFF90;
+}
+
+.batman-ear-left {
+    position: absolute;
+	width: 0;
+	height: 0;
+	border-bottom: 72px solid #000;
+    border-right: 52px solid transparent;
+    top: 78px;
+    left: 189px;
+}
+
+.batman-ear-left-light {
+    position: absolute;
+	width: 0;
+	height: 0;
+	border-bottom: 72px solid #333333;
+    border-right: 52px solid transparent;
+    top: 72px;
+    left: 189px;
+}
+
+.batman-ear-left-light--on {
+    border-bottom: 72px solid  #FFFF90;
+}
+
+.batman-ear-right-light {
+    position: absolute;
+	width: 0;
+	height: 0;
+	border-bottom: 72px solid #333333;
+    border-left: 52px solid transparent;
+    top: 72px;
+    left: 287px;
+}
+
+.batman-ear-right-light--on {
+    border-bottom: 72px solid  #FFFF90;
+}
+
+.batman-ear-circle-left{
+    position: absolute;
+    width: 20px;
+    height: 47px;
+    background: #000;
+    top: 226px;
+    left: 179px;
+    border-radius: 100%;
+}
+
+.batman-ear-circle-right{
+    position: absolute;
+    width: 20px;
+    height: 47px;
+    background: #000;
+    top: 226px;
+    left: 329px;
+    border-radius: 100%;
+}
+
+.batman-ear-right{
+    position: absolute;
+	width: 0;
+	height: 0;
+	border-bottom: 72px solid #000;
+    border-left: 52px solid transparent;
+    top: 78px;
+    left: 287px;
+}
+				
+
+.joker-face{
+    position: absolute;
+    width: 80px;
+    height: 100px;
+    background: white;
+    top: 164px;
+    left: 59px;
+    border-radius: 27%;
+    overflow: hidden;
+}
+
+.joker-face-shadow{
+    position: absolute;
+    width: 80px;
+    height: 100px;
+    background: grey;
+    top: 6px;
+    left: 39px;
+    opacity: 0.3;
+}
+
+.joker-neck{
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    background: #D8D8D8;
+    top: 264px;
+    left: 73px;
+    border-radius: 16%;
+}
+
+.joker-mouth{
+    position: absolute;
+    top: 232px;
+    left: 85px;
+    width: 31px;
+    height: 17px;
+    border-radius: 0 0 100px 100px;
+    background: #E2D4A7;
+}
+
+.joker-lips{
+    position: absolute;
+    top: 229px;
+    left: 81px;
+    width: 39px;
+    height: 24px;
+    border-radius: 0 0 100px 100px;
+    background: red;
+}
+
+.joker-eyerbrow-left{
+    position: absolute;
+    width: 6px;
+    height: 20px;
+    background: #237634;
+    top: 187px;
+    left: 83px;
+    transform: rotate(-74deg);
+}
+
+.joker-eyerbrow-right{
+    position: absolute;
+    width: 6px;
+    height: 20px;
+    background: #237634;
+    top: 187px;
+    left: 112px;
+    transform: rotate(74deg);
+}
+
+.joker-eyebag-left{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background: grey;
+    top: 202px;
+    left: 76px;
+}
+
+.joker-eyebag-right{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background: grey;
+    top: 202px;
+    left: 108px;
+}
+
+.joker-eye-left{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background: #000;
+    top: 200px;
+    left: 109px;
+}
+
+.joker-eye-right{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background: #000;
+    top: 200px;
+    left: 78px;
+}
+
+.joker-eyelight-left{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background: white;
+    top: 202px;
+    left: 115px;
+}
+
+.joker-eyelight-right{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background: white;
+    top: 202px;
+    left: 81px;
+}
+
+
+.joker-hair-back{
+    position: absolute;
+    width: 110px;
+    height: 117px;
+    background: #237634;
+    top: 131px;
+    left: 43px;
+    border-radius: 10%;
+}
+
+.joker-hair-back-light{
+    position: absolute;
+    width: 110px;
+    height: 117px;
+    background: #9ADEB5;
+    top: 127px;
+    left: 43px;
+    border-radius: 10%;
+}
+
+.joker-hair-back-light--on{
+    background: #FFFF90;
+}
+
+.joker-hair-circle{
+    position: absolute;
+    width: 40px;
+    height: 45px;
+    background: #237634;
+    top: 142px;
+    left: 77px;
+    border-radius: 100%;
+}
+
+.joker-hair-circle-light{
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    background: #9ADEB5;
+    top: 142px;
+    left: 77px;
+    border-radius: 100%;
+}
+
+.joker-hair-triangle{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 55px solid #237634;
+    border-right: 44px solid transparent;
+    left: 81px;
+    top: 108px;
+}
+
+/* .joker-hair-triangle-1{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 42px solid #9ADEB5;
+    border-right: 44px solid transparent;
+    left: 28px;
+    top: 122px;
+    transform: rotate(-30deg);
+}
+
+.joker-hair-triangle-2{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 22px solid rgb(1, 167, 67);
+    border-right: 55px solid transparent;
+    left: 126px;
+    top: 170px;
+    transform: rotate(-50deg);
+} */
+
+.joker-hair-square-left{
+    position: absolute;
+    width: 40px;
+    height: 64px;
+    background: #237634;
+    top: 145px;
+    left: 40px;
+    transform: rotate(50deg);
+}
+
+.jocker-ear-left{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: white;
+    top: 205px;
+    left: 48px;
+    border-radius: 100%;
+}
+
+.joker-hair-square-right{
+    position: absolute;
+    width: 40px;
+    height: 64px;
+    background: #237634;
+    top: 145px;
+    left: 117px;
+    transform: rotate(-50deg);
+}
+
+.jocker-ear-right{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #D8D8D8;
+    top: 205px;
+    left: 129px;
+    border-radius: 100%;
+}
+
+.joker-body{
+    position: absolute;
+    width: 140px;
+    height: 120px;
+    background: #501FA8;
+    top: 272px;
+    left: 27px;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.joker-shirt{
+    position: absolute;
+    width: 71px;
+    height: 80px;
+    background: #FAA502;
+    top: 272px;
+    left: 62px;
+}
+
+.joker-tip{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #501FA8;
+    top: 276px;
+    left: 89px;
+    transform: rotate(45deg);
+}
+
+.joker-tip-light{
+    position: absolute;
+    width: 4px;
+    height: 12px;
+    background: white;
+    opacity: 0.2;
+    top: 274px;
+    left: 94px;
+    transform: rotate(45deg);
+}
+
+.joker-tip1{
+    position: absolute;
+    width: 20px;
+    height: 70px;
+    background: #501FA8;
+    top: 291px;
+    left: 89px;
+}
+
+.joker-tip1-light{
+    position: absolute;
+    width: 6px;
+    height: 60px;
+    background: white;
+    opacity: 0.2;
+    top: 293px;
+    left: 92px;
+}
+
+.joker-lapel-left{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 51px solid transparent;
+    border-right: 27px solid rgb(113, 86, 163);
+    border-bottom: 74px solid transparent;
+    top: 272px;
+    left: 48px;
+    transform: rotate(-12deg);
+}
+
+.joker-lapel-right{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 51px solid transparent;
+    border-left: 27px solid rgb(113, 86, 163);
+    border-bottom: 74px solid transparent;
+    top: 272px;
+    left: 120px;
+    transform: rotate(12deg);
+}

@@ -26,6 +26,7 @@
     box-shadow: inset 0 0 5px rgba(167, 47, 47, 0.2);
     transition: 0.5s;
     color: pink;
+    
 }
 
 .circlecheck2:checked{  /*cambia el color del ovalo cuando esta chequeado*/

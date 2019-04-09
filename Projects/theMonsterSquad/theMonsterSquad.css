@@ -1,0 +1,632 @@
+.allPage {
+    width: 100%;
+    margin: auto;
+}
+
+.logoBack{
+    width: 80px;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 67%;
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+}
+
+.logo{
+    width: 20%;
+    margin: 0;
+    padding-top: 5%;
+    padding-left: 67%;
+    cursor: pointer;
+}
+
+.header{
+    padding-top: 0%;
+}
+
+body{
+    font-family: "Georgia", serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background: url('./images/background.jpg') repeat ;
+    /*background: radial-gradient(#f69d3c, #3f87a6);*/
+    /*background: linear-gradient(to top, #F2F7EA, #F2F7EA);
+    /*background: #E9E6E2;*/
+    /*background: #F4E1B1;*/
+    margin: 0;
+    /*background-image: url(./images/Fondo.psd) repeat ;*/
+}
+
+h1,h2,h3,h5{
+   color: #3E2206;
+   font-family: interstate, Sans-serif;
+}
+
+p{
+   color: #3E2206;
+   font-size: 17px;
+   line-height: 25px;
+   font-family: "Georgia", serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.container-all{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.intro{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.parts-team{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.photo-specialise{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    width: 100%;
+    padding-left: 3%;
+}
+
+.specialty{
+    width: 28%;
+    cursor: pointer;
+    padding-left: 2%;
+    /*vertical-align: middle;*/
+}
+
+.specialty:hover{    
+    transition: all 0.5s ease; 
+    transform: translateY(-20px) scale(1.1);
+}
+
+h5:hover {
+    color:#C52039;
+}
+
+.specialty
+h5{
+    margin: 0;
+    padding-bottom: 10%;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;   
+}
+
+.title{
+    padding-top: 4%;
+}
+
+ul{
+    list-style: none;
+    color: #3E2206;
+    font-family: "Georgia", serif; 
+    line-height: 25px;
+    width:65%;
+    align-self: flex-end;
+    text-align: right;
+    padding-left: 0;    
+}
+
+.even {
+    text-align: left;
+}
+
+.section{
+    border-bottom: 1px solid #898E91;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.photo{
+    width: 35%;
+    align-self: flex-end;
+    transition: all 0.6s;
+}
+
+.photo:hover{
+    transform: scale(1.5);
+    transform-origin: bottom;
+}
+
+.title-projects{
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    margin: 0;
+}
+
+.text-projects{
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 6%;
+
+    
+    
+}
+
+.img-projects{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-bottom: 10%;
+}
+
+.poster{
+    width: 80%;
+    padding-bottom: 5%;
+    cursor: pointer;
+}
+
+.poster:hover{    
+    transition: all 0.5s ease; 
+    transform: translateY(-20px) scale(1.4);
+}
+
+.footer{
+    margin: 0;
+    width: 100%;
+    min-height: 250px;
+    /*background: url('./images/header-down.png') bottom no-repeat/* #F4E1B1*/;
+    background-size: contain;
+}
+
+.text-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 1%;
+    padding-bottom: 2%;    
+}
+
+.icon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 5%;   
+}
+
+.text{ 
+    display: inline;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0;
+    padding-left: 7%;   
+}
+
+.text-contact{
+    font-size: 13px; 
+    text-align: center;
+}
+
+.title-footer1{
+    margin: 0;
+    font-size: 16px;
+    padding-top: 10%;
+    padding-bottom: 10%; 
+    padding-left: 10%;
+    text-align: center;
+   
+}
+
+.title-footer2{
+    margin: 0;
+    font-size: 16px;
+    padding-top: 10%;
+    padding-bottom: 10%; 
+    padding-left: 10%;
+    text-align: start;
+   
+}
+
+.contact{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end; 
+    padding-right: 5%;      
+}
+
+.social{
+    width: 15%;
+    align-content: flex-end;
+}
+
+.character-team{
+    border-radius: 100%;
+}
+.ourTeam{
+    position: relative;
+}
+
+.ourTeam:before {
+    border-radius: 100%;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 4px;
+    left: 0;
+    right: 0;
+    background: rgba(238, 76, 55, 0.5); 
+    transition: all .3s linear;
+}
+      
+.ourTeam:hover:before { 
+    background: none;
+    
+}
+.text-team{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;    
+}
+
+.ourTeam:hover > .text-team {
+    opacity: 0;
+}
+
+.text-team
+h1{
+    font-size: 20px;
+    color: #F4E1B1;
+}
+
+.allTeam{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+    border-bottom: 1px solid #898E91;
+    justify-content: space-around;
+    
+}
+
+.ourTeam{
+    width: 40%;
+    margin: 2%;
+    cursor: pointer;
+}
+
+h6,
+.marga {
+    font-size: 12px;
+    /* line-height: 1.5; */
+    font-family: interstate;
+    color: #3E2206;
+    text-align: end;
+    margin: 0;
+    padding-right: 8%;
+}
+
+.link {
+    color: #42787C;
+    text-decoration: none;
+}
+
+.photo-footer{
+    margin: 0;
+}
+
+.invisible {
+    display: contents;
+}
+@media only screen and (min-width: 601px) {
+    
+    .logo{
+        width: 15%;
+        padding-left: 70%;
+    }
+
+    .header{
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 90%;
+    }
+
+    .container-all{
+        padding-left: 10%;
+        padding-right: 10%; 
+    }
+
+    .text-contact {
+        font-size: 16px;
+        text-align: center;
+        line-height: 37px;
+    }
+
+    .text{
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (min-width: 901px) {
+    .logo{
+        width: 10%;
+    }
+
+    .ourTeam{
+        width: 21%;
+        margin: 1%;
+        cursor: pointer;
+    }
+
+    .contact{
+        width:40%;
+    }
+
+    .social-media{
+        width: 35%;;
+    }
+
+    h6,
+    .marga{
+        font-size: 14px;
+        padding-right:13%
+    }
+
+    .poster{
+        width: 30%;
+    }
+
+    .text-projects {
+        font-size: 18px;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .title-projects{
+        font-size: 23px;
+    }
+
+    .parts-team{
+        font-size: 23px;
+    }
+
+    .intro
+    p{
+        font-size: 20px;
+        padding-left: 10%;
+        padding-right: 8%;
+    }
+
+    .specialty h5 {
+        margin: 10px;
+        padding-bottom: 10%;
+        font-size: 18px;
+    }
+
+    .section-character{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section-character
+    p{
+        width: 75%;
+        font-size: 17px;
+        margin-top: 0;
+        padding-bottom: 2%;
+    }
+
+    .photo{
+        width: 50%;
+    }
+
+    ul{
+        width: 40%;
+        font-size: 16px;
+        align-self: center;
+    }
+
+    .container-all{
+        padding-left: 5%;
+        padding-right: 5%; 
+    }
+
+    .title{
+        font-size: 30px;
+    }
+
+    .even{
+        order: 3;
+        text-align: end;
+    }
+
+    .contact{
+        justify-content: center;
+    }
+
+    .social-media{
+        justify-content: center;
+    }
+
+    h6,
+    .marga{
+        padding-right: 15%;
+    }
+
+    .photo-specialise {
+        width: 90%;
+        padding-left: 8%;
+    }
+}
+
+@media only screen and (min-width: 1001px) {
+
+    .logo{
+        width: 8%;
+        padding-left: 75%;
+    }
+
+    .header{
+        width: 75%;
+        padding-left: 13%;
+        padding-right: 12%;
+    }
+
+    .intro p {
+        font-size: 19px;
+        padding-left: 15%;
+        padding-right: 13%;
+    }
+
+    .photo-specialise{
+        width: 80%;
+        padding-left: 12%;
+    }
+
+    .allTeam{
+        width: 90%;
+       padding-left: 5%;
+    }
+
+    .text-team
+    h1{
+        font-size: 32px;
+    }
+
+    .text-projects{
+        padding-left: 13%;
+        padding-right: 13%;
+    }
+
+    .title-footer1{
+        font-size: 22px;
+    }
+
+    .title-footer2{
+        font-size: 22px;
+    }
+
+    .text-contact{
+        font-size: 18px;
+    }
+
+    .text{
+        font-size: 18px;
+    }
+
+    h6,
+    .marga{
+        padding-right: 16%;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 1301px) {
+
+    .two-parts{
+        width: 100%;
+        display: flex;
+        align-content: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .partOne{
+        width: 40%;
+        text-align: center;
+        align-self: center;
+
+    }
+
+    .partTwo{
+        width: 70%;
+        margin: 0;
+    }
+
+    .ourTeam{
+        width: 20%;
+    }
+
+    .text-team
+    h1{
+        font-size: 10px;
+    }
+
+    .specialty h5 {
+        font-size: 12px;
+    }
+
+    .photo-specialise{
+        margin: 0;
+        padding-left: 10%;
+    }
+
+    .text-team
+    h1{
+        font-size: 20px;
+        color: #F4E1B1;
+    }
+
+    .allTeam{
+        border-bottom: 1px solid transparent;       
+    }
+}
+
+
+@media only screen and (min-width: 1401px) {
+
+    .logo{
+        width: 7%;
+    }
+
+    .header{
+        width: 60%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .intro p {
+        font-size: 19px;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .two-parts{
+        width: 90%;
+        padding-left: 5%;
+    }
+
+    .section-character p{
+        align-self: center;
+        font-size: 19px;
+    }
+
+}
+
+@media only screen and (min-width: 1501px) {
+
+    .container-all{
+        width: 80%;
+        padding-left: 10%;
+    }
+}
+

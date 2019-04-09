@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JQuery</title>
+    <link rel="stylesheet" href="./JQuery.css">
+</head>
+<body>
+    <div class='allPage'>
+        <div>
+            <a href="../../index.html">
+                <img class="logoBack" src="../../images/margaMartinez.png" alt="">
+            </a>
+        </div>
+    </div>
+
+    <div class="medida">
+            <!-- Navigation -->
+            <nav>
+                <div class="container-menu">
+                    <span class='menu-button'>Menu</span>
+                    <span class='login-button active-login'>Login</span>                  
+                </div>
+            </nav>
+            
+            <!-- Nav Menu -->
+            <div class="nav-menu-top hide">
+                <div class="container-menu-name">
+                    <p>Elvira</p>
+                    <p>Ingrid Pitt</p>
+                    <p>Cristopher Lee</p>
+                    
+                    <!-- <ul>
+                        <li>hide()</li>
+                        <li>show()</li>
+                        <li>toggle()</li>
+                    </ul>
+                    <ul>
+                        <li>fadeOut()</li>
+                        <li>fadeIn()</li>
+                        <li>toggleFade()</li>
+                    </ul>
+                    <ul>
+                        <li>slideUp()</li>
+                        <li>slideDown()</li>
+                        <li>toggleSlide()</li>
+                        </ul>-->
+                </div>
+            </div>
+            
+            
+            <!-- Login Form -->
+            <div class="login-form">
+                <div class="container-form">
+                    <form>
+                        <h4 class="text-username">Username</h4>
+                        <input class="username" />
+                        <h4 class="text-password">Password</h4>
+                        <input type="password" />
+                        <input class="sign-in-button" type="submit" value="Sign In" />
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Product Cards 1-->
+            <div class="container">
+                <div class="product-card">
+                    <img class="ingridPoster" src="./images/Elvira.png" alt="">
+                </div>
+                <div class="product-details">
+                    <div class="product-price">
+                        <h4 class="product-name">Elvira</h4>
+                        <p class="price">$35</p>
+                    </div>
+                    <div class="button">
+                        <img class="more-details-button active" src="./images/arrow.svg" alt=""> 
+                    </div>
+                </div>
+            
+                <div class="poster-details">
+                    <p class="explanation">Elvira, the coolest neighbor.</p>
+                    <div class="size-chart">
+                        <h4 class="size">Size</h4>
+                        <ul class="sizes">
+                            <li>A5</li>
+                            <li>A4</li>
+                            <li>A3</li>
+                        </ul>
+                    </div>
+                    <div class="buy-now-button disabled">
+                        <h3>Add to cart</h3>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product Cards 2-->
+            <div class="container">
+                <div class="product-card">
+                    <img class="ingridPoster" src="./images/Ingrid-Pitt-vampira.png" alt="">
+                </div>
+                <div class="product-details">
+                    <div class="product-price">
+                        <h4 class="product-name">Ingrid Pitt</h4>
+                        <p class="price">$35</p>
+                    </div>
+                    <div class="button">
+                        <img class="more-details-button active" src="./images/arrow.svg" alt=""> 
+                    </div>
+                </div>
+            
+                <div class="poster-details">
+                    <p class="explanation">Poster about the best vampira ever, Ingrid Pitt.</p>
+                    <div class="size-chart">
+                        <h4 class="size">Size</h4>
+                        <ul class="sizes">
+                            <li>A5</li>
+                            <li>A4</li>
+                            <li>A3</li>
+                        </ul>
+                    </div>
+                    <div class="buy-now-button disabled">
+                        <h3>Add to cart</h3>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product Cards 2-->
+            <div class="container">
+                    <div class="product-card">
+                        <img class="ingridPoster" src="./images/ChristopherLee_dracula.png" alt="">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-price">
+                            <h4 class="product-name">Christopher Lee</h4>
+                            <p class="price">$35</p>
+                        </div>
+                        <div class="button">
+                            <img class="more-details-button active" src="./images/arrow.svg" alt=""> 
+                        </div>
+                    </div>
+                
+                    <div class="poster-details">
+                        <p class="explanation">Poster about Christopher Lee, the best dracula ever.</p>
+                        <div class="size-chart">
+                            <h4 class="size">Size</h4>
+                            <ul class="sizes">
+                                <li>A5</li>
+                                <li>A4</li>
+                                <li>A3</li>
+                            </ul>
+                        </div>
+                        <div class="buy-now-button disabled">
+                            <h3>Add to cart</h3>
+                        </div>
+                    </div>
+                </div>
+            
+            
+            <div class="container-firstpart">
+                <div class="first-image">
+                    <div class="button-jquery">
+                        <button class="hide-button">hide()</button>
+                        <button class="show-button">show()</button>
+                        <button class="toggle-button">toggle()</button>
+                    </div>
+                    <img class="ingrid" src="./images/Ingrid-Pitt-vampira.png" alt="">
+                </div>
+            
+                <div class="first-image">
+                    <div class="button-jquery">
+                        <button class="fade-out-button">fadeOut()</button>
+                        <button class="fade-in-button">fadeIn()</button>
+                        <button class="fade-toggle-button">fadeToggle()</button>
+                    </div>
+                    <img class="christopherLee" src="./images/ChristopherLee_dracula.png" alt="">
+                </div>
+            
+                <div class="first-image">
+                    <div class="button-jquery">
+                        <button class="up-button">slideUp()</button>
+                        <button class="down-button">slideDown()</button>
+                        <button class="slide-toggle-button">slideToggle()</button>
+                    </div>
+                    <img class="ingrid2" src="./images/Ingrid-Pitt-vampira.png" alt="">
+                    </div>
+            </div>
+            </div>
+            
+            <script
+              src="https://code.jquery.com/jquery-3.3.1.min.js"
+              integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+              crossorigin="anonymous"></script>
+            <script src='./JQuery.js'></script>
+        
+    
+</body>
+</html>
