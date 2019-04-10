@@ -5,11 +5,12 @@
 
 /*switch*/
 #switchMarga {
-    max-width: 300px;
-    max-height: auto;
-    padding-top: 13px;
-    margin: auto;
-    position: relative;  
+  max-width: 300px;
+  max-height: auto;
+  padding-top: 20px;
+  margin: auto;
+  position: relative;
+  padding-bottom: 20px; 
      
 }
 
@@ -967,6 +968,19 @@ input:checked + .work::before {
   left: 306px;
 }
 
+.circleSeventeen {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  background: #C6C9D3;
+  position: ;
+  top: 0px;
+  left: 0px;
+  background-size: contain;
+  background-image: url(./images/elvira.png);
+  cursor: pointer;
+}
+
 .informcircle {
   width: 100px;
   height: 100px;
@@ -988,6 +1002,19 @@ input:checked + .work::before {
   text-align: center;
   line-height: 1.4;
   
+}
+
+.moreProjects {
+  width: 400px;
+  height: auto;
+  margin: auto;
+  background: ;
+  margin-top: 22px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
 }
 
 
@@ -1069,4 +1096,60 @@ a {
   position: absolute;
   left: 300px;
   top: 95px;
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+  .allProjects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+  .moreProjects {
+    width: 130px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 25px;
+    margin: 0;
+    padding-top: 0;
+    align-content: flex-start;
+}
+
+.bulb {
+  margin: 0;
+}
+
+}
+
+
+@media only screen and (min-width: 1500px) {
+    
+  .allProjects {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: auto;
+  }
+
+  .bulb {
+    margin: 0;
+  }
+
+  .moreProjects {
+    margin: 0;
+    padding-left: 40px;
+  }
+
+  .footer {
+    width: 400px;
+    height: 176px;
+    margin: auto;
+    margin-top: 37px;
+    position: relative;
+}
+
 }
