@@ -1013,7 +1013,7 @@ input:checked + .work::before {
   padding-top: 40px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-content: center;
 
 }
