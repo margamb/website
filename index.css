@@ -1005,7 +1005,7 @@ input:checked + .work::before {
 }
 
 .moreProjects {
-  width: 350px;
+  width: 370px;
   height: auto;
   margin: auto;
   background: ;
@@ -1014,6 +1014,7 @@ input:checked + .work::before {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-content: center;
 
 }
 
