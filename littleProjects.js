@@ -19,7 +19,7 @@ document.querySelector('.clicked').addEventListener('click', function() {
 
     //const boxesArr = Array.from(boxes);
     const boxes = document.querySelectorAll('.boxUdemy');
-    Array.from(boxes).forEach(cur => cur.style.backgroundColor = 'dodgerblue');
+    Array.from(boxes).forEach(cur => cur.style.backgroundColor = '#B5D3E8');
     
     for ( const cur of boxes) {
         if(cur.className.includes('blue')) {
@@ -32,10 +32,10 @@ document.querySelector('.clicked').addEventListener('click', function() {
     
     document.querySelector('.original').addEventListener('click', function() {
     
-        document.querySelector('.green').style.backgroundColor = 'green';
+        document.querySelector('.green').style.backgroundColor = '#B3E4C7';
         document.querySelector('.green').textContent = 'I\'\m green!';  
     
-        document.querySelector('.orange').style.backgroundColor = 'orangered';
+        document.querySelector('.orange').style.backgroundColor = '#FCDBA9';
         document.querySelector('.orange').textContent = 'I\'\m orange!'; 
     
     });

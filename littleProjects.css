@@ -16,6 +16,18 @@
     color: #C6C9D3;
 }
 
+.projectGeneral{
+    width: 230px;
+    height: 250px;
+    /* background-image:linear-gradient( #B5D3E8 85%, white 15%); */
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .logoBack{
     display: block;
     margin-left: auto;
@@ -37,15 +49,7 @@
 ------------*/
 
 .superMario{
-    width: 230px;
-    height: 250px;
-    background-image:linear-gradient( #778898 85%, white 15%) ;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-image:linear-gradient( #B5D3E8 85%, white 15%) ;
 }
 
 .switch-supermario input {
@@ -479,15 +483,7 @@ KitCatClock
 ------------------------*/
 
 .catwatch{
-    width: 230px;
-    height: 250px;
-    position: relative;
-    background-image:linear-gradient( #e66465 85%, white 15%) ;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-image:linear-gradient( #EBBAB4 85%, white 15%) ;
 }
 
 .KitCatClock {
@@ -881,9 +877,6 @@ KitCatClock
     border-radius: 4%;
 }
 
-
-
-
 .secondHandKitCat{
     width: 2px;
     height: 28px;
@@ -896,8 +889,6 @@ KitCatClock
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
     transform: rotate(360deg);
 }
-
-
 
 .earLeftKitCat{
     position: absolute;
@@ -990,15 +981,7 @@ Batman
 ------------------------*/
 
 .batman {
-    width: 230px;
-    height: 250px;
-    background-image:linear-gradient( grey 85%, white 15%) ;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-image:linear-gradient( #D2D8D8 85%, white 15%) ;
 }
 
 .batman-joker {
@@ -1590,15 +1573,7 @@ switch me
 --------------------*/
 
 .switchMarga {
-    width: 230px;
-    height: 250px;
     background: white;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .circlecheck2 { /*forma ovalada del fondo y posicion en el cuadrado*/
@@ -1680,15 +1655,7 @@ animation robot
 --------------------*/
 
 .robot {
-    width: 230px;
-    height: 250px;
-    background-image:linear-gradient( #F8C4DF 85%, white 15%) ;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-image:linear-gradient( #FCDBA9 85%, white 15%) ;
 }
 
 .arm {
@@ -2156,14 +2123,14 @@ animation robot
     left: 5px; 
   }
   
-  .shadow {
+  .shadowRob {
     position: absolute;
     width: 50px;
     height: 47px;
     background: #008681;
     border-radius: 100%;
     top: 3px;
-    left: 1px; 
+    left: 1px;  
   }
   
   .squareText{
@@ -2251,7 +2218,7 @@ animation robot
     animation:  space 0.6s;
     animation-iteration-count: infinite;
     transition: ease-in all 0.2s;
-  } 
+  }
   
   @keyframes space {
     25% {  transform: translate(0,5px); }
@@ -2268,15 +2235,7 @@ calculate two  field
 ------------------------*/
   
 .calculator {
-    width: 230px;
-    height: 250px;
-    background-image:linear-gradient( #EEEEEE 85%, white 15%) ;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-image:linear-gradient( #B3E4C7 85%, white 15%) ;
     /* //border-radius: 6%; */
 }
 
@@ -2323,7 +2282,7 @@ input {
     font-family: 'Roboto Condensed', Helvetica, sans-serif;
     position: absolute;
     left: 57px;
-    top: 67px;
+    top: 106px;
     font-size: 16px;
     color: white;
     background-color: #008681;
@@ -2342,22 +2301,7 @@ change color and text with ES6/ES2015
 ------------------------*/
 
 .changeColorText {
-    width: 230px;
-    height: 250px;
-    background-image: linear-gradient( #DDDDDD 85%, white 15%);
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* border-radius: 6%; */
-}
-
-
-.active, .btn:hover {
-    background-color: #666;
-    color: white;
+    background-image: linear-gradient( #E9EAEC 85%, white 15%);
 }
 
 .boxsUdemy {
@@ -2413,15 +2357,15 @@ change color and text with ES6/ES2015
 }
 
 .green {
-    background-color: green;
+    background-color: #B3E4C7;
 }
 
 .blue {
-    background-color: dodgerblue;
+    background-color: #B5D3E8;
 }
 
 .orange {
-    background-color: orangered;
+    background-color: #FCDBA9;
 }
 
 
@@ -2434,15 +2378,7 @@ END change color and text with ES6/ES2015
 --------------------*/
 
 .magicBall {
-    width: 230px;
-    height: 250px;
     background-image: linear-gradient( #F8C4DF 85%, white 15%);
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .littleBall {
