@@ -33,9 +33,40 @@ document.querySelector('.clicked').addEventListener('click', function() {
     document.querySelector('.original').addEventListener('click', function() {
     
         document.querySelector('.green').style.backgroundColor = 'green';
-        document.querySelector('.green').textContent = 'I\'\m green';  
+        document.querySelector('.green').textContent = 'I\'\m green!';  
     
         document.querySelector('.orange').style.backgroundColor = 'orangered';
-        document.querySelector('.orange').textContent = 'I\'\m orange'; 
+        document.querySelector('.orange').textContent = 'I\'\m orange!'; 
     
+    });
+
+
+    /*-----------
+     ball 8 magic
+    -------------*/
+
+    var words = [
+        'It is certain',
+    'It is decidedly so',
+    'Without a doubt',
+    'Yes definitely',
+    'You may rely on it',
+    'As I see it, yes',
+    'Most likely'
+        ];
+    function getRandom(arr) {
+      return arr[Math.floor(Math.random() * arr.length)]
+    }
+    console.log(getRandom(words));
+    
+    var ball = document.getElementById('ball8');
+    ball.addEventListener("click", function(){
+      var elem = document.getElementById('text');
+      elem.innerHTML = getRandom(words);
+      elem.style.opacity = 1;
+    });
+    
+    ball.addEventListener("mouseout", function(){
+      var elem = document.getElementById('text');
+      elem.style.opacity = 0;
     });
