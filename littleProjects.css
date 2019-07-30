@@ -2568,6 +2568,1202 @@ END change color and text with ES6/ES2015
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
 
+
+  /*-------------
+  END 8 ball
+  -------------------------*/
+
+   /*-------------
+  girl
+  -------------------------*/
+  
+  .girl{
+    background-image:linear-gradient( #B5D3E8 85%, white 15%) ;
+}
+
+  .circleGirl{
+      transform: scale(0.6);
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 4px solid #E8E9EB;
+    background: white;
+    overflow: hidden;
+    margin: auto;
+    top: -29px;
+    bottom: 0;
+    left: -39px;
+    right: 0;
+}
+
+.faceGirl{
+    position: absolute;
+    width: 123px;
+    height: 150px;
+    background: #F0BEAF;
+    border-radius: 37%;
+    top: 70px;
+    left: 90px;
+}
+
+.neckGirl{
+    position: absolute;
+    width: 48px;
+    height: 60px;
+    background: #F0BEAF;
+    border-radius: 100%;
+    top: 182px;
+    left: 127px;
+}
+
+.bodyGirl{
+    position: absolute;
+    top: 223px;
+    left: 92px;
+    width: 115px;
+    height: 140px;
+    border-radius: 35%;
+    background: #2c3350;
+}
+
+.earGirl{
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    background: #F0BEAF;
+    top: 150px;
+    left: 81px;
+    border-radius:100%;
+}
+
+.earGirl-right{
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    background: #F0BEAF;
+    top: 150px;
+    left: 202px;
+    border-radius:100%;
+}
+
+.eyeGirl{
+    position: absolute;
+    top: 150px;
+    left: 117px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background: #3498db;
+}
+
+.eyebrowsGirl{
+    position: absolute;
+    top: 139px;
+    left: 113px;
+    width: 20px;
+    height: 5px;
+    border-radius: 26%;
+    background: #424B54;
+    transition: all 0.3s;
+}
+
+.light-eyeGirl{
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background: white;
+    transition: all 0.3s;
+}
+
+.eyeGirl-right{
+    position: absolute;
+    top: 150px;
+    left: 173px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background: #3498db;
+}
+
+.eyebrowsGirl-right{
+    position: absolute;
+    top: 139px;
+    left: 172px;
+    width: 20px;
+    height: 5px;
+    border-radius: 26%;
+    background: #424B54;
+    transition: all 0.3s;
+}
+
+.light-eyeGirl-right{
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background: white;
+    transition: all 0.3s;
+}
+
+.mouthGirl{
+    position: absolute;
+    top: 185px;
+    left: 141px;
+    width: 25px;
+    height: 15px;
+    border-radius: 0 0 100px 100px;
+    background: #424B54;
+
+}
+
+.tongueGirl{
+    position: absolute;
+    top: 192px;
+    left: 144px;
+    width: 19px;
+    height: 8px;
+    background: #F6828C;
+    border-radius: 100%;
+    transition: all 0.3s;
+}
+
+.fringeGirl{
+    position: absolute;
+    top: 66px;
+    left: 89px;
+    width: 125px;
+    height: 58px;
+    background: #424b54;
+    border-radius: 100px 100px 0 0;
+}
+
+.hairircleGirl{
+    position: absolute;
+    top: 66px;
+    left: 82px;
+    width: 138px;
+    height: 138px;
+    background: #424b54;
+    border-radius: 100%;
+}
+
+.hairribbonGirl{
+    position: absolute;
+    top: 55px;
+    left: 82px;
+    width: 138px;
+    height: 138px;
+    background: #3498db;
+    border-radius: 100%;
+}
+
+.hairGirl{
+    position: absolute;
+    top: 45px;
+    left: 64px;
+    width: 172px;
+    height: 241px;
+    background: #424b54;
+    border-radius: 37%;
+}
+
+.girl:hover .light-eyeGirl{
+    transform: translateY(6px);
+    
+}
+
+.girl:hover .light-eyeGirl-right{
+    transform: translateY(6px);   
+}
+
+.girl:hover .eyebrowsGirl{
+    transform: translateY(-6px);
+    
+}
+
+.girl:hover .eyebrowsGirl-right{
+    transform: translateY(-6px);   
+}
+
+.girl:hover .tongueGirl{
+    transform: scaleY(2);   
+}
+
+ /*-----------
+     END girl
+    -------------*/
+
+ /*-----------
+     active button
+    -------------*/
+
+
+.activeBtn {
+    background-image:linear-gradient( #EBBAB4 85%, white 15%) ;
+}
+
+
+.groupButton {
+    transform: scale(0.9);
+    position: absolute;
+    top: 50px;
+
+}
+#groupButtons {
+
+    padding-bottom: 35px;
+}
+
+.btnAB {
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+  }
   
 
+.activeAB, .btnAB:hover {
+    background-color: #666;
+    color: white;
+}
+
+.btnAB2 {
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+  }
   
+
+.activeAB2, .btnAB2:hover {
+    background-color: #666;
+    color: white;
+}
+
+ /*-----------
+     END active button
+    -------------*/
+
+     /*-----------
+     css Elvira
+    -------------*/
+
+    .elvira {
+        background: radial-gradient(#fa143a, #550d01);
+    }
+
+    .reduceElvira {
+        
+    transform: scale(0.6);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    }
+
+    .squareTextBTElvira {
+        width: 230px;
+        height: 37px;
+        background: white;
+        position: absolute;
+        top: 213px;
+        left: 0px;
+    }
+
+.tomb1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(#550d01 , #000);
+    border-radius: 100% 100% 0% 0%;
+    top: 249px;
+    left: 18px;
+    transform: rotate(-20deg);
+}
+
+.tomb2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(#550d01 , #000);
+    border-radius: 100% 100% 0% 0%;
+    top: 241px;
+    left: 283px;
+    transform: rotate(13deg);
+}
+
+.tomb3{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: radial-gradient(#550d01 , #000);
+    border-radius: 100% 100% 0% 0%;
+    top: 269px;
+    left: 312px;
+    transform: rotate(13deg);
+}
+
+.cloud {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background: #550d01;
+    border-radius: 100%;
+    top: 33px;
+    left: -24px;
+}
+
+.cloud1 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: #550d01;
+    border-radius: 100%;
+    top: 49px;
+    left: 29px;
+}
+
+.cloud2 {
+    position: absolute;
+    width: 40px;
+    height: 35px;
+    background: #550d01;
+    border-radius: 100%;
+    top: 96px;
+    left: -8px;
+}
+
+
+.moon{
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    background: radial-gradient(#fa143a , white);
+    border-radius: 100%;
+    top: 20px;
+    left: 165px;
+}
+
+.floor{
+    position: absolute;
+    width: 484px;
+    height: 254px;
+    background: #000;
+    border-radius: 100%;
+    top: 272px;
+    left: -51px;
+}
+
+.hair-light-elvira{
+    position: absolute;
+    width: 140px;
+    height: 149px;
+    background: #555;
+    border-radius: 100%;
+    top: 109px;
+    left: 115px;
+}
+
+.hair1-light-elvira{
+    position: absolute;
+    width: 104px;
+    height: 10px;
+    background: #555;
+    border-radius: 0% 0% 100% 100%;
+    top: 107px;
+    left: 132px;
+}
+
+.hair2-light-elvira{
+    position: absolute;
+    width: 6px;
+    height: 30px;
+    background: #555;
+    border-radius: 100% 100% 0% 0%;
+    top: 80px;
+    left: 182px;
+}
+
+.hair-elvira{
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    background: #000;
+    border-radius: 100%;
+    top: 43px;
+    left: 83px;
+}
+
+
+
+.face-elvira{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background: rgb(241, 170, 149);
+    border-radius: 100%;
+    top: 121px;
+    left: 115px;
+}
+
+.face-light-elvira{
+    position: absolute;
+    width: 120px;
+    height: 140px;
+    background: #F0BEAF;
+    border-radius: 100%;
+    top: 0px;
+    left: 10px;
+}
+
+.eye-right-elvira {
+    position: absolute;
+    top: 187px;
+    left: 200px;
+    border-radius: 179px 0 203px 0;
+    width: 40px;
+    height: 18px;
+    background: white;
+    border: black solid 3px;
+}
+
+.ball-eye-right-elvira{
+    position: absolute;
+    top: 190px;
+    left: 212px;
+    border-radius: 100%;
+    width: 19px;
+    height: 18px;
+    background: #2090FF;
+}
+
+.ball-eye-light-right-elvira {
+    position: absolute;
+    top: 190px;
+    left: 222px;
+    border-radius: 100%;
+    width: 7px;
+    height: 7px;
+    background: white;
+}
+
+.eye-left-elvira {
+    position: absolute;
+    top: 187px;
+    left: 124px;
+    border-radius: 0 179px 0 203px;
+    width: 40px;
+    height: 18px;
+    background: white;
+    border: black solid 3px;
+}
+
+.ball-eye-left-elvira{
+    position: absolute;
+    top: 190px;
+    left: 139px;
+    border-radius: 100%;
+    width: 19px;
+    height: 18px;
+    background: #2090FF;
+}
+
+.ball-eye-light-left-elvira {
+    position: absolute;
+    top: 190px;
+    left: 140px;
+    border-radius: 100%;
+    width: 7px;
+    height: 7px;
+    background: white;
+}
+
+.nose-elvira {
+    position: absolute;
+    width: 7px;
+    height: 5px;
+    top: 215px;
+    left: 181px;
+    border-top: 8px solid #F1AA95;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+}
+
+.mouth-elvira{
+    position: absolute;
+    width: 18px;
+    height: 7px;
+    top: 230px;
+    left: 170px;
+    background: #fa143a;
+    border-radius: 100% 100% 0% 0%;
+}
+
+.mouth1-elvira{
+    position: absolute;
+    width: 18px;
+    height: 7px;
+    top: 230px;
+    left: 186px;
+    background: #fa143a;
+    border-radius: 100% 100% 0% 0%;
+}
+
+.mouth2-elvira{
+    position: absolute;
+    width: 26px;
+    height: 7px;
+    top: 235px;
+    left: 174px;
+    background: radial-gradient(#550d01, #fa143a);
+    border-radius: 0% 0% 100% 100%;
+}
+
+.fringe-elvira {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 140px;
+    height: 58px;
+    background: #000;
+    border-radius: 100px 100px 0 0;
+}
+
+
+
+.hair-back-elvira {
+    position: absolute;
+    top: 95px;
+    left: 97px;
+    width: 180px;
+    height: 241px;
+    background: #000;
+    border-radius: 37%;
+}
+
+.hair-back-light-elvira {
+    position: absolute;
+    top: 99px;
+    left: 95px;
+    width: 184px;
+    height: 241px;
+    background: #555;
+    border-radius: 37%;
+}
+
+.neck-elvira{
+    position: absolute;
+    width: 37px;
+    height: 54px;
+    background: #F0BEAF;
+    border-radius: 35%;
+    top: 231px;
+    left: 168px;
+}
+
+.body-elvira{
+    position: absolute;
+    width: 85px;
+    height: 200px;
+    /* background: #000; */
+    top: 286px;
+    left: 115px;
+    border-top: 120px solid #000;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;	
+}
+
+.neckline-elvira{
+    position: absolute;
+    /* width: 40px; */
+    /* height: 100px; */
+    top: 273px;
+    left: 146px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 83px solid #F0BEAF;
+}
+
+.neckline1-elvira{
+    position: absolute;
+    top: 318px;
+    left: 122px;
+    width: 60px;
+    height: 58px;
+    background: transparent;
+    border: 3px solid #000;
+    border-color:transparent #000 transparent transparent;
+    border-radius: 100%;
+}
+ .boom-right{
+    position: absolute;
+    top: 314px;
+    left: 113px;
+    width: 65px;
+    height: 65px;
+    background: #000;
+    border-radius: 100%;
+}
+
+.boom-light-right{
+    position: absolute;
+    top: 319px;
+    left: 111px;
+    width: 65px;
+    height: 59px;
+    background: white;
+    border-radius: 100%;
+}
+
+.boom-left{
+    position: absolute;
+    top: 314px;
+    left: 194px;
+    width: 65px;
+    height: 65px;
+    background: #000;
+    border-radius: 100%;
+}
+
+.boom-light-left{
+    position: absolute;
+    top: 319px;
+    left: 196px;
+    width: 65px;
+    height: 59px;
+    background: white;
+    border-radius: 100%;
+}
+
+/*-----------
+END ELvira
+---------------------*/
+
+/*-----------
+cofee
+------------------*/
+
+.coffee{
+    background-image: linear-gradient( #FCDBA9 85%, white 15%);
+}
+
+.reduceCaffee{
+    /* transform: scale(0.9); */
+    position: absolute;
+    top: -73px;
+    left: -64px;
+}
+
+.latte, 
+.americano,
+.macchiato,
+.crema {
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    border: none;
+    outline: none;
+    padding: 5px 12px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.latte {
+    position: absolute;
+    top: 87px;
+    left: 78px;
+}
+
+.americano {
+    position: absolute;
+    top: 87px;
+    left: 195px;
+}
+
+.macchiato {
+    position: absolute;
+    top: 116px;
+    left: 78px;
+}
+
+.crema {
+    position: absolute;
+    top: 116px;
+    left: 219px;
+}
+
+.saucer{
+    transform: scale(0.6);
+    position: absolute;
+    top: 99px;
+    left: 79px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: #FFF;
+    box-shadow: 5px 1px 30px #948296;
+    border: 5px solid #FFF;
+
+}
+
+.inner-coffee{
+    position: absolute;
+    top: 50px;
+    left: 45px;
+    width: 100px;
+    height: 80px;
+    border-radius: 100%;
+    box-shadow: -10px 10px 60px #948296;
+}
+
+.cup {
+    position: absolute;
+    top: 39px;
+    left: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 10px solid #FFF;
+    box-shadow: 0 10px 30px #948296;
+}
+
+.holder {
+    position: absolute;
+    top: 196px;
+    left: 130px;
+    width: 23px;
+    height: 18px;
+    background-color: #FFF;
+    border-radius: 30%;
+}
+
+button{
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: white;
+}
+
+button:focus{
+    outline: none;
+}
+
+.active{
+    background-color: #685044;
+    color: white;
+}
+
+
+
+.choices{
+    
+    font-size: 42px;
+    color: #303030;
+    text-align: center;
+    padding-top: 10%;   
+}
+
+
+.fluid{
+    position: absolute;
+    top: 49px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #685044;
+    box-shadow: inset 0 0 10px #000;
+}
+
+.fluid-gradient{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(#A0512D, #fdfdfd);
+    opacity: 0.5; 
+    border-radius: 100%;
+    top: 49px;
+    left: 50px;
+}
+
+.fluid-shadow{
+    position: absolute;
+    width: 50px;
+    height: 75px;
+    background: radial-gradient(#A0512D, #fdfdfd);
+    opacity: 0.3;
+    border-radius: 100%;
+    top: 62px;
+    left: 99px;
+}
+
+
+.fluid-light{
+    position: absolute;
+    width: 13px;
+    height: 22px;
+    background: white;
+    opacity: 0.7;
+    border-radius: 100%;
+    top: 89px;
+    left: 132px;
+}
+
+/*-------
+END coffee
+-----------------*/
+
+/*--------
+burger
+---------------*/
+
+.burger {
+    background: white;
+}
+
+.reduceBurger{
+    transform: scale(0.6);
+    position: absolute;
+    top: -14px;
+    left: 2px;
+}
+    
+
+.circle-burger{
+    position: absolute;
+    top: 55px;
+    left: 43px;
+    width: 300px;
+    height: 300px;
+    background: #F3D9B1;
+    border-radius: 100%;
+}
+.bread-top{
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    background: #DF7B30;
+    box-shadow: inset 0px -12px 15px rgba(68, 68, 68, 0.3);
+    top: 113px;
+    left: 103px;
+    border-radius: 100px 100px 0 0;
+}
+
+.sesame-one{
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background: #FFB400;
+    top: 9px;
+    left: 53px;
+    border-radius: 100px 100px 0 0;
+}
+
+.sesame-two{
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    background: #FFB400;
+    top: 17px;
+    left: 82px;
+    border-radius: 100px 100px 0 0;
+}
+
+.sesame-three{
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background: #FFB400;
+    top: 9px;
+    left: 115px;
+    border-radius: 100px 100px 0 0;
+}
+
+.tomato{
+    position: absolute;
+    width: 170px;
+    height: 10px;
+    background: #E83330;
+    top: 177px;
+    left: 108px;
+    border-radius: 100px; 
+}
+
+.light-tomato{
+    position: absolute;
+    width: 109px;
+    height: 4px;
+    background: #FFF;
+    opacity: 0.2;
+    top: 3px;
+    left: 57px;
+    border-radius: 100px;
+}
+
+.onion{
+    position: absolute;
+    width: 156px;
+    height: 12px;
+    background: #9E3D6D;
+    top: 192px;
+    left: 115px; 
+}
+
+.light-onion-one{
+    position: absolute;
+    width: 22px;
+    height: 12px;
+    background: #FFF;
+    opacity: 0.2;
+    top: 0;
+    left: 98px;
+}
+
+.light-onion-two{
+    position: absolute;
+    width: 8px;
+    height: 12px;
+    background: #FFF;
+    opacity: 0.2;
+    top: 0;
+    left: 137px;
+}
+
+.lettuce{
+    position: absolute;
+    width: 176px;
+    height: 12px;
+    top: 208px;
+    left: 105px;
+    background: #6DA000;
+    border-radius: 3px;
+}
+
+.light-lettuce-one{
+    position: absolute;
+    width: 90px;
+    height: 4px;
+    background: #FFF;
+    opacity: 0.2;
+    top: 212px;
+    left: 183px;
+    border-radius: 100px;
+}
+
+.light-lettuce-two{
+    position: absolute;
+    width: 20px;
+    height: 4px;
+    background: #FFF;
+    opacity: 0.2;
+    top: 212px;
+    left: 183px;
+    border-radius: 100px;
+}
+
+.chesse{
+    position: absolute;
+    width: 176px;
+    height: 12px;
+    top: 226px;
+    left: 105px;
+    background: #FFB400;
+    border-radius: 3px; 
+}
+
+.chesse-triangle{
+    position: absolute;
+    border-top: 40px solid #FFB400;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.melt{
+    position: absolute;
+    top: -29px;
+    left: 93px;
+    width: 10px;
+    height: 55px;
+    background: #FFB400;
+    border-radius: 100px;
+    animation: 5s melting ease infinite;
+}
+
+
+
+@keyframes melting{
+100% {
+    transform: translateY(-7px);
+}
+}
+
+.melt-one{
+    position: absolute;
+    top: -34px;
+    left: 74px;
+    width: 8px;
+    height: 40px;
+    background: #FFB400;
+    border-radius: 100px;
+    animation: 5s melting ease infinite;
+}
+
+.light-triangle{
+    position: absolute;
+    top: -35px;
+    left: 5px;
+    width: 5px;
+    height: 30px;
+    background: #FFF;
+    opacity: 0.5;
+    border-radius: 100px;
+    transform: rotate(51deg);
+}
+
+.meat{
+    position: absolute;
+    width: 176px;
+    height: 26px;
+    top: 246px;
+    left: 105px;
+    background: #9D4845;
+    box-shadow: inset -5px -5px 5px rgba(68, 68, 68, 0.3);
+    border-radius: 100px;   
+}
+
+.bread-bottom{
+    position: absolute;
+    top: 272px;
+    left: 103px;
+    width: 180px;
+    height: 30px;
+    background: #DF7B30;
+    box-shadow: inset -11px -12px 15px rgba(68, 68, 68, 0.3);
+    border-radius: 0 0 100px 100px;
+}
+
+/*--------
+END burger
+---------------*/
+
+/*--------
+battery
+---------------*/
+
+.battery {
+    background-image: linear-gradient( #B3E4C7 85%, white 15%);
+}
+
+/*battery*/
+
+.reduceBattery {
+    transform: scale(0.6);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.box-battery{
+    position: absolute;
+    width: 200px;
+    height: 95px;
+    border: 6px solid white;
+    top: 90px;
+    left: 82px;
+    overflow: hidden;
+}
+
+.charge{
+    position: absolute;
+    width: 40px;
+    height: 95px;
+    background: orange;
+    top: 0px;
+    left: 0px;
+}
+
+.box-battery1{
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    background: white;
+    top: 116px;
+    left: 289px;
+}
+
+.light{
+    width: 0px;
+    height: 0;
+    border-bottom: 100px solid white;
+    border-right: 207px solid transparent;
+    opacity: 0.2;
+}
+
+.plus{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 253px;
+    left: 225px;
+    border-radius: 100%;
+    background: white;
+    cursor: pointer;
+}
+
+.line-plus{
+    width: 45px;
+    height: 7px;
+    position: absolute;
+    top: 30px;
+    left: 13px;
+    background: #B3E4C7;
+}
+
+.line-plus2{
+    width: 7px;
+    height: 45px;
+    position: absolute;
+    top: 12px;
+    left: 31px;
+    background: #B3E4C7;
+}
+
+.less{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 253px;
+    left: 96px;
+    border-radius: 100%;
+    background: white;
+    cursor: pointer;
+}
+
+.line-less{
+    width: 45px;
+    height: 7px;
+    position: absolute;
+    top: 30px;
+    left: 13px;
+    background: #B3E4C7;
+}
+
+
+  
+    @keyframes move {
+      100% { background-position: -1400px;}
+    }
+

@@ -70,3 +70,70 @@ document.querySelector('.clicked').addEventListener('click', function() {
       var elem = document.getElementById('text');
       elem.style.opacity = 0;
     });
+
+     /*-----------
+     active button
+    -------------*/
+
+var header = document.getElementById("groupButtons");
+var btns = header.getElementsByClassName("btnAB");
+for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("activeAB");
+    current[0].className = current[0].className.replace(" activeAB", "");
+    this.className += " activeAB";
+    });
+}
+
+// Add active class to the current button (highlight it)
+var header2 = document.getElementById("groupButtons2");
+var btns2 = header2.getElementsByClassName("btnAB2");
+for (var i = 0; i < btns2.length; i++) {
+  btns2[i].addEventListener("click", function() {
+  var current2 = document.getElementsByClassName("activeAB2");
+  if (current2.length > 0) { 
+    current2[0].className = current2[0].className.replace(" activeAB2", "");
+  }
+  this.className += " activeAB2";
+  });
+}
+
+
+/*--------
+coffeee
+------------------ */
+
+document.addEventListener('DOMContentLoaded', () => {
+    const config = [
+        {type: "latte", color:"#C3B299"},
+        {type: "americano", color:"#685044"},
+        {type: "macchiato", color:"#FC9E4F"},
+        {type: "crema", color:"#F3D9B0"}
+    ]
+
+    config.forEach(coffee => {
+        document.getElementById(coffee.type).addEventListener("click", () => { 
+            document.getElementById("fluid").style.backgroundColor = coffee.color;
+        });    
+    })
+
+    $("button").on("click", event => {
+        $(event.currentTarget).addClass('active');
+        $(event.currentTarget).siblings().removeClass('active')
+        $(event.currentTarget).closest('.choices').children().removeClass('disabled')
+    })
+
+});
+
+/*------
+battery
+----------------- */
+
+$('.plus').on('click', function(){
+    var length = $('.charge').width() + 40;
+    $('.charge').animate({width: length});
+});
+
+$(".less").on("click", () => { 
+    $('.charge').animate({ width: '6px',},1000);
+});
