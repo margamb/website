@@ -2272,17 +2272,22 @@ input {
 .spaceSum {
     font-family: 'Roboto Condensed', Helvetica, sans-serif;
     position: absolute;
-    left: 22px;
+    left: 50px;
     top: 66px;
     font-size: 18px;
     outline: none;
 }
 
+#num2 {
+    position: absolute;
+    top: 37px;
+}
+
 #sum {
     font-family: 'Roboto Condensed', Helvetica, sans-serif;
     position: absolute;
-    left: 57px;
-    top: 106px;
+    left: 29px;
+    top: 66px;
     font-size: 16px;
     color: white;
     background-color: #008681;
@@ -2290,6 +2295,13 @@ input {
     border-radius: 6%;
     cursor: pointer;
     outline: none;
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
 }
 
 /*---------
@@ -3766,4 +3778,90 @@ battery
     @keyframes move {
       100% { background-position: -1400px;}
     }
+
+    /*-------------
+    END battery
+    -------------*/
+
+/*------------
+flipCardEffectH&CF
+---------------*/
+
+.flipCardEffectHCF {
+    background-image: linear-gradient( #F8C4DF 85%, white 15%);
+}
+
+.containerCard {
+    width: 180px;
+    height: 260px;
+    position: relative;
+    /*border: 1px solid #ccc;*/
+    perspective: 800px;
+    cursor: pointer;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 50% 50%;  
+}
+
+.back {
+    position: absolute;
+    transform: rotateY( 180deg );
+    top: 0px;
+}
+
+.flipped {
+    transform: rotateY( 180deg );
+}
+
+/*------------
+END flipCardEffectH&CF
+---------------*/
+
+/*------------
+fundamentalLaws monkey
+---------------*/
+
+
+.fundamentalLaws {
+    background-image: linear-gradient( #FCDBA9 85%, white 15%);
+}
+
+.titleFundamentalLaws {
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    /* color: #303030; */
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    line-height: 1.3;
+}
+
+.occamSRazor {
+    color: #2A7588;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    z-index: 1;
+    width: 97%;
+    text-align: center;
+    line-height: 1.3;
+    position: absolute;
+    top: 40px;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+}
+
+#lawsSoftwareDevelopment {
+    width: 45%;
+    position: absolute;
+    top: 96px;
+    left: 66px;
+  }
 

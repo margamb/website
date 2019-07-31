@@ -137,3 +137,46 @@ $('.plus').on('click', function(){
 $(".less").on("click", () => { 
     $('.charge').animate({ width: '6px',},1000);
 });
+
+/*------
+END battery
+----------------- */
+
+// /*------
+// card H&CF
+// ----------------- */
+
+// function flip() {
+//     $('.card').toggleClass('flipped'); 
+// } 
+
+// /*------
+// END card H&CF
+// ----------------- */
+
+
+/*------------
+fundamentalLaws monkey
+---------------*/
+
+
+var laws = [ "Hanlon's Razor","The Pareto Principle","Dunning-Kruger Effect",
+"Linus's Law","Postel's Law","Eagleson's Law","Peter Principle","Dilbert Principle",
+"Hofstadter's Law", "The 90-90 Rule", "Parkinson's Law", "Sayre's Law", "Parkinson's Law of Triviality",
+"Law of Argumentative Comprehension",];
+
+function getRandom(arr) {
+  return arr[Math.floor(Math.random() * arr.length)]
+}
+console.log (getRandom(laws));
+
+var monkey = document.getElementById('lawsSoftwareDevelopment');
+monkey.addEventListener("click", function(){
+ var elem = document.getElementById("textLaws");
+ elem.innerHTML = getRandom(laws);
+});
+
+
+/*------------
+END fundamentalLaws monkey
+---------------*/
