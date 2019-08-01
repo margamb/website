@@ -2249,9 +2249,7 @@ h1 {
 
 input {
     outline: none;
-    outline: none;
-    width: 100px;
-    height: 18px;
+   
 }
 
 .titleCalculator {
@@ -2284,6 +2282,13 @@ input {
 #num2 {
     position: absolute;
     top: 37px;
+    width: 100px;
+    height: 18px;
+}
+
+#num1 {
+    width: 100px;
+    height: 18px;
 }
 
 #sum {
