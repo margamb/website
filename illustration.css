@@ -5,11 +5,13 @@
 
 /*switch*/
 #switchMarga {
-    max-width: 300px;
-    max-height: auto;
-    padding-top: 13px;
-    margin: auto;
-    position: relative;    
+ max-width: 300px;
+  max-height: auto;
+  padding-top: 20px;
+  margin: auto;
+  position: relative;
+  padding-bottom: 20px;
+  padding-left: 30px;   
 }
 
 .circlecheck2 { /*forma ovalada del fondo y posicion en el cuadrado*/
@@ -60,7 +62,7 @@ input:checked + .work::after {
     content: 'code';
     font-family: 'Roboto Condensed', Helvetica, sans-serif;
     position: absolute;
-    left: 260px;
+    left: 237px;
     top: 31px;
     font-size: 18px;
     color: #CE67B6;
@@ -73,7 +75,7 @@ input:checked + .work::before {
     content: 'illustration';
     font-family: 'Roboto Condensed', Helvetica, sans-serif;
     position: absolute;
-    left: 218px;
+    left: 196px;
     top: 57px;
     font-size: 18px;
     color: #C6C9D3;
@@ -88,7 +90,6 @@ input:checked + .work::before {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 20px;
 }
 
 .explanation {
@@ -102,14 +103,14 @@ input:checked + .work::before {
 }
 
 .textExpl {
-    width: 70%;
+    width: 85%;
     font-family: 'Roboto Condensed', Helvetica, sans-serif;
-    left: 218px;
-    top: 57px;
-    font-size: 16px;
+    font-size: 14px;
     color: #C6C9D3;
-    align-self: center;
-    padding-left: 10px;
+    text-align: center;
+    margin: auto;
+    line-height: 1.4;
+    padding-bottom: 20px;
 }
 
 .taxi {
@@ -151,3 +152,37 @@ input:checked + .work::before {
       width: 30%;
     }
   }
+
+
+  /*------
+media queries
+------------*/
+
+@media screen and (min-width: 50rem) {
+
+}
+
+@media screen and (min-width: 600px) {
+    .textExpl {
+        font-size: 16px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    } 
+}
+
+@media screen and (min-width: 900px) {
+    .textExpl {
+        font-size: 16px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .textExpl {
+        font-size: 16px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+}
+
