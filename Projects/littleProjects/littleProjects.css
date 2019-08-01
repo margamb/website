@@ -1583,7 +1583,7 @@ switch me
     width: 140px;
     height: 70px;
     -webkit-appearance: none;
-    background-image: url("./images/codeSwitch.png");
+    background-image: url("../../images/codeSwitch.png");
     background-size: contain;
     outline: none;
     border-radius: 120px;
@@ -1594,7 +1594,7 @@ switch me
 }
 
 .circlecheck2:checked{  /*cambia el color del ovalo cuando esta chequeado*/
-    background-image: url("./images/codeSwitchPencil.png");
+    background-image: url("../../images/codeSwitchPencil.png");
     background-size: contain; /*para que la imagen cuadre aunq sea mas grande*/
 }
 
@@ -1605,7 +1605,7 @@ switch me
     height:70px;
     left: 0;
     top:0;
-    background-image: url("./images/myPhotoCode.png");
+    background-image: url("../../images/myPhotoCode.png");
     border-radius: 100%;
     transform:scale(1.1);
     box-shadow: inset 0 0 5px rgba(0,0,0,.2);
@@ -2249,6 +2249,9 @@ h1 {
 
 input {
     outline: none;
+    outline: none;
+    width: 100px;
+    height: 18px;
 }
 
 .titleCalculator {
@@ -2272,7 +2275,7 @@ input {
 .spaceSum {
     font-family: 'Roboto Condensed', Helvetica, sans-serif;
     position: absolute;
-    left: 50px;
+    left: 65px;
     top: 66px;
     font-size: 18px;
     outline: none;
@@ -2286,7 +2289,7 @@ input {
 #sum {
     font-family: 'Roboto Condensed', Helvetica, sans-serif;
     position: absolute;
-    left: 29px;
+    left: 12px;
     top: 66px;
     font-size: 16px;
     color: white;
