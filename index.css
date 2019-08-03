@@ -3,6 +3,7 @@
     margin: auto;
 }
 
+
 /*switch*/
 #switchMarga {
   max-width: 300px;
@@ -121,11 +122,11 @@ li {
 }
 
 .me {
-    width: 85%;
+    width: 80%;
     font-family: 'Roboto Condensed', Helvetica, sans-serif;
     font-size: 14px;
     color: #C6C9D3;
-    text-align: center;
+    text-align: left;
     margin: auto;
     line-height: 1.4;
     padding-bottom: 30px;
@@ -208,11 +209,21 @@ media queries
   
 
   }
+
+  @media screen and (min-width: 500px) {
+      .me {
+          width: 70%;
+      }
+  }
   
   @media screen and (min-width: 600px) {
     .project {
       width: 40%;
       height: auto;
+    }
+
+    .me {
+        width: 60%;
     }
   
     .project img {
@@ -244,11 +255,30 @@ media queries
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     }
   
-    .me {
-        font-size: 16px;
-        padding-top: 20px;
-        padding-bottom: 40px;
+    .header {
+        width: 80%;
+        margin: auto;
     }
+    
+    .me {
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 65%;
+    /* background-image: url(./images/header.png);     */
+    }
+
+.imgHeader {
+    width: 15%;
+    /* position: absolute;
+    top: 33px;
+    left: 588px; */
+    opacity: 0.2;
+    background: url(./images/imgheader.png);
+   
+    
+}
+
 
     .projectInfo {
         font-size: 16px;

@@ -1,0 +1,362 @@
+.allPage {
+    width: 100%;
+    display: block;
+    margin: auto;
+    max-width: 500px;
+}
+
+.logoBack{
+    width: 80px;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 67%;
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+}
+
+.logo{
+    width: 20%;
+    margin: 0;
+    padding-top: 5%;
+    padding-left: 67%;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+}
+
+.bobby {
+    width: 40%;
+    margin-top: 8%;
+    margin-left: 32%;
+}
+
+.bobbyBar {
+    width: 40%;
+    position: absolute;
+    top: 5px;
+    left: 130px;
+    animation: 2s ticket ease-in-out;    
+}
+
+@keyframes ticket {
+    0% {
+        left: -5px;
+        opacity: 0;
+    } 
+    100% {
+        left:130px;
+        opacity: 1; 
+        
+    } 
+    
+}
+
+/*
+ animation:myship 10s;
+ @keyframes myship{
+    from {left: 480px;} 
+    to{left:20px;} 
+}
+---------
+transform: translateX(39px, 200px);
+transition: all 0.2s ease-in-out;
+*/
+
+.bobbyMachine {
+    width: 400px;
+    margin: auto;
+    position: relative;
+}
+
+.candidatesButton {
+    background-color: #EA3788; /* Green background */
+    width: 310px;
+    height: 48px;
+    font-size: 20px;
+    color: white; /* White text */
+    cursor: pointer; /* Pointer/hand icon */
+    margin-bottom: 7px;
+    text-align: left;
+    padding-left: 2%;
+    /*letter-spacing: 0.1em;*/
+    border-radius: 4px;
+    outline: none;
+}
+
+.candidatesButton:hover {
+    background-color: #962558;
+}
+
+.candidates {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choiceTitle {
+    color: #416BB3;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    margin-top: 6px;
+    margin-bottom: -10px;
+}
+
+.choice {
+    color: #375D9C;
+    text-align: center;
+    font-size: 18px;
+}
+
+.choose {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 14px;
+}
+
+.chooseOption {
+    background-color: white; /* Green background */
+    width: 100px;
+    height: 48px;
+    font-size: 22px;
+    color: #416BB3; /* White text */
+    cursor: pointer; /* Pointer/hand icon */
+    margin-bottom: 7px;
+    text-align: center;
+    padding-left: 2%;
+    letter-spacing: 0.1em;
+    border-radius: 4px;
+    outline: none;
+    border: 3px solid #416BB3;
+}
+
+.chooseOption:hover {
+    background-color: #C6C9D3 ;
+}
+
+.ChangeOptions {
+    display: block;
+    margin: auto;
+    top: 291px;
+    position: relative;
+    background-color: white; /* Green background */
+    width: 100px;
+    height: 48px;
+    font-size: 16px;
+    color: #416BB3; /* White text */
+    cursor: pointer; /* Pointer/hand icon */
+    text-align: center;
+    letter-spacing: 0.1em;
+    border-radius: 4px;
+    outline: none;
+    border: 3px solid #416BB3;
+}
+
+.ChangeOptions:hover {
+    background-color: #C6C9D3 ;
+}
+
+.click{
+    width: 20%;
+    margin-top: 8%;
+    margin-left: 35%;
+    position: absolute;
+    left: 68px;
+    top: 150px;
+    animation: 2s mov ease-in-out;   
+    /*transition: 0.5s;
+    transition: opacity 0.5s ease-in-out;
+    animation-delay: 2s mov;*/   
+}
+
+@keyframes mov{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;   
+    }
+}
+
+.conteinerBobby {
+    max-width: 400px;
+    margin: auto;
+    position: relative;
+}
+
+h6 {
+    color: #C6C9D3;
+    margin: 0;
+    padding-top: 4px;
+    font-size: 14px;
+}
+
+.header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home {
+    width: 7%;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
+.logo {
+    width: 45px;
+    height: auto;
+    padding-top: 5%;
+}
+
+.logoSad {
+    width: 100%;
+    padding-top: 5%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    top: -6px;
+    left: 0px;
+    opacity: 0;
+    animation: 2s sad ease-in-out;
+}
+
+@keyframes sad{
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;   
+    }
+}
+
+.logoSmile {
+    width: 100%;
+    padding-top: 5%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.logoSmileOthers {
+    width: 60%;
+    padding-top: 2%;
+    display: block;
+    margin: auto;
+}
+
+.logo-text {
+    width: 60%;
+    padding-top: 5%;
+    display: block;
+    margin: auto;
+}
+
+.machine {
+    width: 129px;
+    height: 110px;
+    position: absolute;
+    background: white;
+    top: 0px;
+    left:0px;
+    z-index: 1;
+}
+
+.open {
+    width: 10px;
+    height: 110px;
+    position: absolute;
+    background: #A7A9AC;
+    top: 0px;
+    left: 119px;
+}
+
+.title {
+    width: 90%;
+    text-align: center;
+    font-size: 20px;
+    color: #C6C9D3;  
+}
+
+.twoimg {
+    width: 300px;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+
+.sweet {
+    color: #EA3788;
+    font-size: 14px;
+}
+
+.second {
+    color: #375D9C;
+    text-align: center;
+    font-size: 18px;
+}
+
+.sure {
+    color: #375D9C;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    margin-bottom: -15px;
+}
+
+.textTochange{
+    color: #375D9C;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    margin-bottom: -15px;
+    animation: 2s changeText ease-in-out;
+    
+    
+}
+
+@keyframes changeText{
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.wrong {
+    width: 150px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+  
+
+
+

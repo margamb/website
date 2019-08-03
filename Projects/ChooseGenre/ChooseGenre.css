@@ -1,0 +1,335 @@
+body {
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+}
+
+.allPage {
+    width: 100%;
+    margin: auto;
+    max-width: 500px;
+}
+.logoBack{
+    width: 80px;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 67%;
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+}
+
+.logo{
+    width: 20%;
+    margin: 0;
+    padding-top: 5%;
+    padding-left: 67%;
+    cursor: pointer;
+}
+
+.allPage {
+    width: 90%;
+    max-width: 400px; /*doesn't work*/
+    height: auto;
+    margin: auto;
+    margin-bottom: 15%;
+}
+
+
+.header{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.title{
+    color: #C6C9D3;
+    padding-top: 5%;
+}
+
+.chooseimg{
+    width: 36%;
+    padding-top: 5%;
+}
+
+/*switch*/
+.switch-marga{
+    max-width: 300px;
+    max-height: auto;
+    padding-top: 13px;
+    margin: auto;
+    position: relative;    
+}
+
+.circlecheck2 { /*forma ovalada del fondo y posicion en el cuadrado*/
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    width: 140px;
+    height: 70px;
+    -webkit-appearance: none;
+    background-image: url("./images/codeSwitch.png");
+    background-size: contain;
+    outline: none;
+    border-radius: 120px;
+    box-shadow: inset 0 0 5px rgba(167, 47, 47, 0.2);
+    /*box-shadow:1.125em 1.125em 0 1.125em rgba(0,0,0,0.3) inset*/
+    transition: 0.5s;
+    color: pink;
+}
+
+.circlecheck2:checked{  /*cambia el color del ovalo cuando esta chequeado*/
+    background-image: url("./images/codeSwitchPencil.png");
+    background-size: contain; /*para que la imagen cuadre aunq sea mas grande*/
+}
+
+.circlecheck2:before{ /*circulo*/
+    content: '';
+    position: absolute;
+    width: 70px;
+    height:70px;
+    left: 0;
+    top:0;
+    background-image: url("./images/myPhotoCode.png");
+    border-radius: 100%;
+    transform:scale(1.1);
+    box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+    transition: 0.5s;
+    background-size: contain;
+}
+
+.circlecheck2:checked:before{
+    left: 50%;
+}
+
+input:checked + .work::after {
+    color: #C6C9D3;
+}
+.work::after {
+    content: 'code';
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    position: absolute;
+    left: 260px;
+    top: 31px;
+    font-size: 18px;
+    color: #CE67B6;
+    transition: 0.5s;
+}
+input:checked + .work::before {
+    color: #CE67B6;
+}
+.work:before {
+    content: 'illustration';
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    position: absolute;
+    left: 218px;
+    top: 57px;
+    font-size: 18px;
+    color: #C6C9D3;
+    transition: 0.5s; /*change color type at the same time of circle*/
+}
+
+/*finish-switch*/
+
+/*genre*/
+
+.genre {
+     display: block;
+     width: 80%;
+     margin: auto;
+     padding-top: 5%;
+     list-style: none;
+     cursor: pointer;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     padding-left: 0;
+}
+
+.itemsGenre{
+    text-align: center;
+    padding-right: 4%;
+    width: 29%;
+    margin: auto;
+    padding-top: 7%;
+}
+
+/*scienceFiction*/
+
+.check {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+    border-radius: 100%;
+    -webkit-appearance: none;
+    outline: none;
+    border-radius: 30%;
+    box-shadow: inset 0 0 5px rgba(51, 22, 22, 0.2);
+    transition: 0.5s;
+    cursor: pointer;    
+}
+
+
+.check:checked {
+    left: 0;
+    top: 0;
+    background-size: contain;
+    border-radius: 100%;
+    transform: scale(1.1);
+    box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+    transition: 0.5s;
+}
+
+h6{
+    color: #C6C9D3;
+    margin: 0;
+    padding-top: 4px;
+}
+
+.check:checked  + h6{
+    color: pink;
+    margin: 0;
+    padding-top: 4px;
+}
+
+#fiction{
+    background-image: url("./images/scienceFictionOff.png");
+}
+
+#fiction:checked {
+    background-image: url("./images/scienceFictionOn.png");
+}
+
+#horror{
+    background-image: url("./images/horrorOff.png");
+}
+
+#horror:checked {
+    background-image: url("./images/horrorOn.png");
+}
+
+#love{
+    background-image: url("./images/loveOff.png");
+}
+
+#love:checked {
+    background-image: url("./images/loveOn.png");
+}
+
+#comedy{
+    background-image: url("./images/comedyOff.png");
+}
+
+#comedy:checked {
+    background-image: url("./images/comedyOn.png");
+}
+
+#action{
+    background-image: url("./images/actionOff.png");
+}
+
+#action:checked {
+    background-image: url("./images/actionOn.png");
+}
+
+#mystery{
+    background-image: url("./images/mysteryOff.png");
+}
+
+#mystery:checked {
+    background-image: url("./images/mysteryOn.png");
+}
+
+
+/*POSTERS*/
+
+
+
+.containerPosters {
+    padding-top: 15%;
+    width: 80%;
+    margin: auto;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.poster {
+    width: 40%;
+    text-align: center;
+    perspective: 50em;
+}
+
+.poster * {
+    box-sizing: padding-box;
+    transition: all 0.2s ease-out;
+}
+
+img{
+    width: 100%;
+}
+
+.squareWhite { /*text*/
+    top: 50%;
+    left: 20px;
+    right: 20px;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+  }
+
+  h2,
+  h4 {
+    margin: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  h4 {
+    font-weight: 400;
+    font-size: 9px;
+  }
+  
+  .poster:after { /*It´s square white*/
+    background-color: #ffffff;
+    position: absolute;
+    content: "";
+    display: block;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    transition: all 0.4s ease-in-out;
+    transform: rotateX(-90deg);
+    transform-origin: 50% 50%;
+    opacity: 0;
+  }
+  
+  .poster:hover .squareWhite,
+  .poster.hover .squareWhite {
+    transform: translateY(-50%);
+    opacity: 1;
+    -webkit-transition-delay: 0.2s;
+  
+  }
+  .poster:hover:after,
+  .poster.hover:after {
+    transform: rotateX(0);
+    opacity: 0.6;
+  }
+  
