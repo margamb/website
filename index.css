@@ -161,6 +161,7 @@ li {
 a {
     text-decoration: none;
     cursor: pointer;
+    color: #CE67B6
   }
 
   a:hover {
@@ -173,7 +174,7 @@ a {
   }
 
   .footer {
-    background: url(./images/ornament.png) 50% 0 repeat-x;
+    background: url(./images/ornamentMe.png) 50% 0 repeat-x;
     opacity: 0.5;
     font-size: 12px;
     text-align: center;
@@ -187,7 +188,7 @@ a {
     font-size: 12px;
     margin-bottom: 0.5em;
     line-height: 1.7;
-
+    color: #555555;
 }
 
 /*------
