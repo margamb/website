@@ -180,3 +180,32 @@ monkey.addEventListener("click", function(){
 /*------------
 END fundamentalLaws monkey
 ---------------*/
+
+/*------------
+dice
+---------------*/
+
+
+(function() {
+
+ var score = 0
+ var diceDom = document.querySelector('.dice');
+ var scoreDom = document.querySelector('.score');
+
+document.querySelector('.roll').addEventListener('click', function() {
+    var dice = Math.floor(Math.random() * 6) + 1;
+
+    diceDom.style.display = 'block';
+    diceDom.src = '../../images/' + 'dice-' + dice + '.png';
+   
+    score += dice;
+    scoreDom.textContent = score;
+});
+
+document.querySelector('.start').addEventListener('click', function() {
+    score = 0;
+    diceDom.style.display = 'none';
+    scoreDom.textContent = 0;
+});
+
+})()

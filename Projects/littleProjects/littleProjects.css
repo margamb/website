@@ -3871,5 +3871,65 @@ fundamentalLaws monkey
     position: absolute;
     top: 96px;
     left: 66px;
-  }
+}
 
+/*------------
+END fundamentalLaws monkey
+---------------*/
+
+/*------------
+dice
+---------------*/
+
+
+.diceProject {
+    background: white;
+}
+
+.twoBtns{
+    
+}
+
+.roll,
+.start{
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #CE67B6;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    line-height: 1.3;
+    cursor: pointer;
+}
+
+.roll {
+    left: 52px;
+}
+
+.start {
+    left: 135px;
+}
+
+.score{
+    color: #2A7588;
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    z-index: 1;
+    width: 97%;
+    text-align: center;
+    line-height: 1.3;
+    position: absolute;
+    top: 43px;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+}
+
+.dice {
+    width: 50%;
+    position: absolute;
+    top: 85px;
+    left: 56px;
+    display: none;
+  }
