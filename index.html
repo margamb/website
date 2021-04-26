@@ -1,171 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Marga Martinez Porfolio</title>
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="allPage">
+      <div id="switchMarga">
+        <input type="checkbox" class="circlecheck2" id="checkbox" />
+        <label for="dn" class="work"></label>
+      </div>
 
-<div class="allPage">
+      <div class="header">
+        <p class="me">
+          I'm Marga, an illustrator and graphic designer who also loves doing
+          HTML, CSS, Javascript...<br />
+          I spend most of my time on this website, working on projects to learn
+          stuff.<br />
+          When I'm not coding, I'm drawing, watching movies, improving my
+          English and listening to music.<br />
+          Click on a project to know more.
+        </p>
+        <div class="imgHeader"></div>
+      </div>
 
-    <div id="switchMarga">
-        <input  type="checkbox" class="circlecheck2" id="checkbox">
-        <label for="dn" class='work'></label>
-    </div>
-
-    <div class="header">
-    <p class="me">
-            I'm Marga, an illustrator and graphic designer who also loves doing HTML,
-            CSS, Javascript...<br />
-            I spend most of my time on this website, working on projects to learn stuff.<br />
-            When I'm not coding, I'm drawing, watching movies, improving my English and listening to music.<br />
-            Click on a project to know more.
-    </p>
-    <div class='imgHeader'></div>
-    </div>
-
-    <ul class="listProjects">
+      <ul class="listProjects">
+        <li class="project">
+          <a href="https://margamb.github.io/movie-tickets/">
+            <img class="imgProject" src="./images/tickets.jpg" alt="" />
+            <p class="titleProject">Movie Tickets</p>
+          </a>
+          <div class="projectInfo">
+            <p>
+              A movie booking ticket app I created to improve my react and
+              javascript.
+              <a href="https://github.com/margamb/movie-tickets"
+                >See code in github</a
+              >
+            </p>
+          </div>
+        </li>
 
         <li class="project">
-            <a href="./Projects/littleProjects/littleProjects.html">
-            <img class='imgProject' src="./images/littleProjects.png" alt="">
+          <a href="https://margamb.github.io/calendar-test/">
+            <img class="imgProject" src="./images/calendar.jpg" alt="" />
+            <p class="titleProject">Calendar App</p>
+          </a>
+          <div class="projectInfo">
+            <p>
+              A calendar app I created to improve my react and javascript.
+              <a href="https://github.com/margamb/calendar-test"
+                >See code in github</a
+              >
+            </p>
+          </div>
+        </li>
+
+        <li class="project">
+          <a href="./Projects/littleProjects/littleProjects.html">
+            <img class="imgProject" src="./images/littleProjects.png" alt="" />
             <p class="titleProject">Little projects</p>
-        </a>
-            <div class="projectInfo">
-                <p>
-                On this page there are small projects that I try or do for fun. Toggle
-                switch, hover, animation, change color, css drawing...
-                </p>
-            </div>
+          </a>
+          <div class="projectInfo">
+            <p>
+              On this page there are small projects that I try or do for fun.
+              Toggle switch, hover, animation, change color, css drawing...
+            </p>
+          </div>
         </li>
 
         <li class="project">
-            <a href="./Projects/theMonsterSquad/theMonsterSquad.html">
-                <img class='imgProject' src="./images/monstersSquad.png" alt="">
-                <p class="titleProject">Monsters Landing page</p>
-            </a>
-            <div class="projectInfo">
-                <p>
-                In this project I've learned more about media queries, flex box, images and its animation.
-                </p>
-            </div>
-        </li>
-        
-
-        
-        <li class="project">
-            <a href="./Projects/JQuery/JQuery.html">
-                <img class='imgProject' src="./images/elvira.png" alt="">
-                <p class="titleProject">JQuery page</p>
-            </a>
-            <div class="projectInfo">
-                <p>
-                I've learned about JQuery. It's a small project about a poster shop online .
-                </p>
-            </div>
+          <a href="./Projects/theMonsterSquad/theMonsterSquad.html">
+            <img class="imgProject" src="./images/monstersSquad.png" alt="" />
+            <p class="titleProject">Monsters Landing page</p>
+          </a>
+          <div class="projectInfo">
+            <p>
+              In this project I've learned more about media queries, flex box,
+              images and its animation.
+            </p>
+          </div>
         </li>
 
         <li class="project">
-            <a href="./Projects/directorsEnquirer/directorsEnquirer.html">
-                <img class='imgProject' src="./images/scorsese.png" alt="">
-                <p class="titleProject">Responsive Web Project</p>
-            </a>
-            <div class="projectInfo">
-                <p>
-                Inspired by the work of Ethan Marcotte. I learned 
-                about the flex box and media queries (responsive web).
-                </p>
-            </div>
+          <a href="./Projects/JQuery/JQuery.html">
+            <img class="imgProject" src="./images/elvira.png" alt="" />
+            <p class="titleProject">JQuery page</p>
+          </a>
+          <div class="projectInfo">
+            <p>
+              I've learned about JQuery. It's a small project about a poster
+              shop online .
+            </p>
+          </div>
         </li>
 
         <li class="project">
-                <a href="./Projects/FlastFlexbox/fastFlexbox.html">
-                    <img class='imgProject' src="./images/fastFlexBox.png" alt="">
-                    <p class="titleProject">Fast Flexbox Interactive</p>
-                </a>
-                <div class="projectInfo">
-                    <p>
-                    Interactive page about flex box and how it works
-                    <strong>Work in progress</strong>.
-                    </p>
-                </div>
+          <a href="./Projects/directorsEnquirer/directorsEnquirer.html">
+            <img class="imgProject" src="./images/scorsese.png" alt="" />
+            <p class="titleProject">Responsive Web Project</p>
+          </a>
+          <div class="projectInfo">
+            <p>
+              Inspired by the work of Ethan Marcotte. I learned about the flex
+              box and media queries (responsive web).
+            </p>
+          </div>
         </li>
 
         <li class="project">
-                <a href="./Projects/ChooseGenre/ChooseGenre.html">
-                    <img class='imgProject' src="./images/moviesGenre1.png" alt="">
-                    <p class="titleProject">Choose Genre</p>
-                </a>
-                <div class="projectInfo">
-                    <p>
-                    I wanted to focus more in Javascript. I used filter method to choose/filter movies.  
-                    <strong>Work in progress</strong>.
-                    </p>
-                </div>
+          <a href="./Projects/FlastFlexbox/fastFlexbox.html">
+            <img class="imgProject" src="./images/fastFlexBox.png" alt="" />
+            <p class="titleProject">Fast Flexbox Interactive</p>
+          </a>
+          <div class="projectInfo">
+            <p>Interactive page about flex box and how it works</p>
+          </div>
         </li>
 
         <li class="project">
-                <a href="./Projects/votingMachine/votingMachine.html">
-                    <img class='imgProject' src="./images/logoVotingMachine.png" alt="">
-                    <p class="titleProject">Voting Machine</p>
-                </a>
-                <div class="projectInfo">
-                    <p>
-                    I made the same voting machine of Park and Recreation serie.
-                    <strong>Work in progress</strong>.
-                    </p>
-                </div>
+          <a href="./Projects/ChooseGenre/ChooseGenre.html">
+            <img class="imgProject" src="./images/moviesGenre1.png" alt="" />
+            <p class="titleProject">Choose Genre</p>
+          </a>
+          <div class="projectInfo">
+            <p>
+              I wanted to focus more in Javascript. I used filter method to
+              choose/filter movies.
+            </p>
+          </div>
         </li>
 
         <li class="project">
-                <a href="./Projects/addNotes/addNotes.html">
-                    <img class='imgProject' src="./images/toDoList.png" alt="">
-                    <p class="titleProject">To Do List</p>
-                </a>
-                <div class="projectInfo">
-                    <p>
-                    I worked on to do list.
-                    <strong>Work in progress</strong>.
-                    </p>
-                </div>
+          <a href="./Projects/votingMachine/votingMachine.html">
+            <img
+              class="imgProject"
+              src="./images/logoVotingMachine.png"
+              alt=""
+            />
+            <p class="titleProject">Voting Machine</p>
+          </a>
+          <div class="projectInfo">
+            <p>I made the same voting machine of Park and Recreation serie.</p>
+          </div>
         </li>
 
         <li class="project">
-                <a href="./Projects/funProject/funProject.html">
-                    <img class='imgProject' src="./images/funProject.png" alt="">
-                    <p class="titleProject">Fun project</p>
-                </a>
-                <div class="projectInfo">
-                    <p>I made my index website more artistic, only for fun.
-                    <!-- I wanted to make my index page more artistic and test other composition.
+          <a href="./Projects/addNotes/addNotes.html">
+            <img class="imgProject" src="./images/toDoList.png" alt="" />
+            <p class="titleProject">To Do List</p>
+          </a>
+          <div class="projectInfo">
+            <p>I worked on to do list.</p>
+          </div>
+        </li>
+
+        <li class="project">
+          <a href="./Projects/funProject/funProject.html">
+            <img class="imgProject" src="./images/funProject.png" alt="" />
+            <p class="titleProject">Fun project</p>
+          </a>
+          <div class="projectInfo">
+            <p>
+              I made my index website more artistic, only for fun.
+              <!-- I wanted to make my index page more artistic and test other composition.
                     The links works but not repeat the same process I decided remove -->
-                    <strong>Work in progress</strong>.
-                    </p>
-                </div>
+            </p>
+          </div>
         </li>
 
         <li class="project">
-                <a href="./Projects/carousel/corousel.html">
-                    <img class='imgProject' src="./images/carouselProject.png" alt="">
-                    <p class="titleProject">Slideshow / Carousel</p>
-                </a>
-                <div class="projectInfo">
-                    <p>On this page there are two types of carousel.
-                    <strong>Work in progress</strong>.
-                    </p>
-                </div>
+          <a href="./Projects/carousel/corousel.html">
+            <img class="imgProject" src="./images/carouselProject.png" alt="" />
+            <p class="titleProject">Slideshow / Carousel</p>
+          </a>
+          <div class="projectInfo">
+            <p>
+              On this page there are two types of carousel.
+              <strong>Work in progress</strong>.
+            </p>
+          </div>
         </li>
+      </ul>
 
-    </ul>
+      <footer class="footer">
+        <ul class="logos">
+          <li>
+            <a href="https://github.com/margamb"
+              ><img
+                class="logo"
+                src="./images/logo-github.png"
+                alt="Link github"
+                title="Link github"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/margamarben/"
+              ><img
+                class="logo"
+                src="./images/logo-linkedin.png"
+                alt="Link linkedin"
+                title="Link linkedin"
+            /></a>
+          </li>
+          <li>
+            <a href="mailto:margamarben@gmail.com"
+              ><img
+                class="logo"
+                src="./images/logo-envelop.png"
+                alt="Send email"
+                title="Send Email"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="./images/CV_Margarita_Martinez_Benito_Front-End_Dev.pdf"
+              target="_blank"
+              ><img
+                class="logo"
+                src="./images/logo-curriculum.png"
+                alt="Download Curriculum"
+                title="Download Curriculum"
+            /></a>
+          </li>
+        </ul>
 
-    <footer class="footer">
-        <p>Illustrations by <a href="http://margamb.github.io">Marga Martinez</a>. Web also by Marga :)</p>
-    </footer>
-</div>
-    
-</body>
-<script src="./index.js"></script>
+        <p>
+          Illustrations by
+          <a href="https://margamartinez.com">Marga Martinez</a>. Web also by
+          Marga :)
+        </p>
+      </footer>
+    </div>
+  </body>
+  <script src="./index.js"></script>
 </html>
