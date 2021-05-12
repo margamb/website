@@ -823,7 +823,6 @@ input:checked + .work::before {
   left: 206px;
   background-size: contain;
   background-image: url("../../images/fundamentalLaws.png");
-  cursor: pointer;
 }
 
 .circleThree {
@@ -856,7 +855,6 @@ input:checked + .work::before {
   left: 194px;
   background-size: contain;
   background-image: url("../../images/batman.png");
-  cursor: pointer;
 }
 
 .circleSix {
@@ -869,7 +867,6 @@ input:checked + .work::before {
   left: 147px;
   background-size: contain;
   background-image: url("../../images/elvira.png");
-  cursor: pointer;
 }
 
 .circleSeven {
@@ -882,7 +879,6 @@ input:checked + .work::before {
   left: 140px;
   background-size: contain;
   background-image: url("../../images/scorsese.png");
-  cursor: pointer;
 }
 
 .circleEight {
@@ -895,7 +891,6 @@ input:checked + .work::before {
   left: 90px;
   background-size: contain;
   background-image: url("../../images/ball8.png");
-  cursor: pointer;
 }
 
 .circleNine {
@@ -908,7 +903,6 @@ input:checked + .work::before {
   left: 47px;
   background-size: contain;
   background-image: url("../../images/monstersSquad.png");
-  cursor: pointer;
 }
 
 .circleTen {
@@ -921,7 +915,6 @@ input:checked + .work::before {
   left: 83px;
   background-size: contain;
   background-image: url("../../images/cat.png");
-  cursor: pointer;
 }
 
 .circleEleven {
@@ -944,7 +937,6 @@ input:checked + .work::before {
   left: 277px;
   background-size: contain;
   background-image: url("../../images/mario.png");
-  cursor: pointer;
 }
 
 .circleThirteen {
@@ -957,7 +949,6 @@ input:checked + .work::before {
   left: 224px;
   background-size: contain;
   background-image: url("../../images/addNotes.png");
-  cursor: pointer;
 }
 
 .circleFourteen {
@@ -1000,7 +991,6 @@ input:checked + .work::before {
   left: 0px;
   background-size: contain;
   background-image: url('../../images/moviesGenre.png');
-  cursor: pointer;
 }
 
 .informcircle {
@@ -1048,10 +1038,6 @@ input:checked + .work::before {
     background: ;
     margin-top: 37px;
     position: relative;
-  /*display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;*/
 }
 
 .meFooter {
@@ -1088,14 +1074,6 @@ input:checked + .work::before {
 a {
   text-decoration: none;
 }
-
-/*.mediaIcons {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;*/
-  
-
 
 .curriculum {
   width: 7%;
