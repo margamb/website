@@ -67,6 +67,7 @@ input:checked + .work::after {
     font-size: 18px;
     color: #CE67B6;
     transition: 0.5s;
+    cursor: pointer;
 }
 input:checked + .work::before {
     color: #CE67B6;
@@ -80,7 +81,13 @@ input:checked + .work::before {
     font-size: 18px;
     color: #C6C9D3;
     transition: 0.5s; /*change color type at the same time of circle*/
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
+.work:hover::after {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
 
 /*finish-switch*/
 

@@ -3,6 +3,13 @@
   margin: auto;
 }
 
+.myName {
+  color: black;
+}
+.clickProjects {
+  color: black;
+}
+
 /*switch*/
 #switchMarga {
   max-width: 300px;
@@ -71,6 +78,8 @@ input:checked + .work::after {
   color: #ce67b6;
   transition: 0.5s;
   cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 input:checked + .work::before {
   color: #ce67b6;
@@ -85,6 +94,10 @@ input:checked + .work::before {
   color: #c6c9d3;
   transition: 0.5s; /*change color type at the same time of circle*/
   cursor: pointer;
+}
+.work:hover::before{
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 /*finish-switch*/
